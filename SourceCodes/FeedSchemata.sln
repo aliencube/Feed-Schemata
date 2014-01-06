@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssSchema.2.0.11", "RssSchema.2.0.11\RssSchema.2.0.11.csproj", "{6618C575-24ED-48C9-AE98-657BB81BDE43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssSchema.2.0.11", "RSS\RssSchema.2.0.11\RssSchema.2.0.11.csproj", "{6618C575-24ED-48C9-AE98-657BB81BDE43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RSS", "RSS", "{BFC5CEDE-2B91-41CF-8A71-D5D0EC131FDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ATOM", "ATOM", "{F6C7BFEC-4A43-4CAF-B3C3-4D8D8D711F19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RDF", "RDF", "{11EAB818-9B25-48FE-B36F-2E3B08588088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,5 +22,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6618C575-24ED-48C9-AE98-657BB81BDE43} = {BFC5CEDE-2B91-41CF-8A71-D5D0EC131FDC}
 	EndGlobalSection
 EndGlobal
