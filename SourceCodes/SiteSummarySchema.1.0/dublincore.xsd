@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dublincore"
+    targetNamespace="http://feed-schemata.aliencube.org/rdf/site-summary/1.0/dublincore.xsd"
+    xmlns="http://feed-schemata.aliencube.org/rdf/site-summary/1.0/dublincore.xsd"
+    xmlns:mstns="http://feed-schemata.aliencube.org/rdf/site-summary/1.0/dublincore.xsd"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="1.0"
+>
+    <xs:element name="dublinCore" type="DublinCore">
+        <xs:annotation>
+            <xs:documentation>The [Dublin Core Metadata Element Set](http://purl.org/dc/documents/rec-dces-19990702.htm) provides some standard metadata elements. These are listed below for your quick reference; be sure to visit the [Dublin Core](http://purl.org/dc/documents/rec-dces-19990702.htm) site for more specifics.</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:dc="http://purl.org/dc/elements/1.1/"</xs:documentation>
+            <xs:documentation>For more details: http://dublincore.org/documents/dcmi-terms/#elements-contributor</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:complexType name="DublinCore">
+        <xs:annotation>
+            <xs:documentation>The [Dublin Core Metadata Element Set](http://purl.org/dc/documents/rec-dces-19990702.htm) provides some standard metadata elements. These are listed below for your quick reference; be sure to visit the [Dublin Core](http://purl.org/dc/documents/rec-dces-19990702.htm) site for more specifics.</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:dc="http://purl.org/dc/elements/1.1/"</xs:documentation>
+            <xs:documentation>For more details: http://dublincore.org/documents/dcmi-terms/#elements-contributor</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="contributor" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="coverage" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="creator" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="date" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="description" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="format" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="identifier" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="language" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="publisher" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="relation" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="rights" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="source" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="subject" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="title" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="type" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="rss"
-    targetNamespace="http://feed-schemata.aliencube.org.org/rss/2.0.11/rss.xsd"
+    targetNamespace="http://feed-schemata.aliencube.org/rss/2.0.11/rss.xsd"
+    xmlns="http://feed-schemata.aliencube.org/rss/2.0.11/rss.xsd"
+    xmlns:mstns="http://feed-schemata.aliencube.org/rss/2.0.11/rss.xsd"
     elementFormDefault="qualified"
-    xmlns="http://feed-schemata.aliencube.org.org/rss/2.0.11/rss.xsd"
-    xmlns:mstns="http://feed-schemata.aliencube.org.org/rss/2.0.11/rss.xsd"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="2.0.11"
 >
@@ -17,35 +17,39 @@
         <xs:documentation>Acknowledgement: This is inspired by RSS 2.0 Schema (http://rss2schema.codeplex.com).</xs:documentation>
     </xs:annotation>
 
-    <xs:element name="rss">
+    <xs:element name="rss" type="Rss">
+        <xs:annotation>
+            <xs:documentation>Defines the root element of the RSS feed.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:complexType name="Rss">
         <xs:annotation>
             <xs:documentation>Defines the root element of the RSS feed.</xs:documentation>
         </xs:annotation>
 
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="channel" type="RssChannel">
-                    <xs:annotation>
-                        <xs:documentation>Defines the channel element of the RSS feed.</xs:documentation>
-                    </xs:annotation>
-                </xs:element>
-            </xs:sequence>
-
-            <xs:attribute name="version" type="xs:decimal" use="required" fixed="2.0">
+        <xs:sequence>
+            <xs:element name="channel" type="Channel">
                 <xs:annotation>
-                    <xs:documentation>Defines the version of the RSS feed.</xs:documentation>
+                    <xs:documentation>Defines the channel element of the RSS feed.</xs:documentation>
                 </xs:annotation>
-            </xs:attribute>
+            </xs:element>
+        </xs:sequence>
 
-            <xs:anyAttribute namespace="##any">
-                <xs:annotation>
-                    <xs:documentation>Extensibility attribute to define additional namespaces.</xs:documentation>
-                </xs:annotation>
-            </xs:anyAttribute>
-        </xs:complexType>
-    </xs:element>
+        <xs:attribute name="version" type="xs:decimal" use="required" fixed="2.0">
+            <xs:annotation>
+                <xs:documentation>Defines the version of the RSS feed.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
 
-    <xs:complexType name="RssChannel">
+        <xs:anyAttribute namespace="##any">
+            <xs:annotation>
+                <xs:documentation>Extensibility attribute to define additional namespaces.</xs:documentation>
+            </xs:annotation>
+        </xs:anyAttribute>
+    </xs:complexType>
+
+    <xs:complexType name="Channel">
         <xs:annotation>
             <xs:documentation>Defines the channel element of the RSS feed.</xs:documentation>
         </xs:annotation>
@@ -173,21 +177,7 @@
                 </xs:any>
             </xs:choice>
 
-            <xs:element name="item" type="RssItem" minOccurs="1" maxOccurs="unbounded">
-                <xs:annotation>
-                    <xs:documentation>
-                        HACK: According to the RSS 2.0 spec, it should strictly be possible to have zero item elements,
-                        but this makes the schema non-deterministic with regard to extensibility elements
-                        so for the moment we undid [bug-fix 10231](http://rss2schema.codeplex.com/workitem/10231) and set minOccurs=1 to work around this problem.
-                    </xs:documentation>
-                </xs:annotation>
-            </xs:element>
-
-            <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded">
-                <xs:annotation>
-                    <xs:documentation>Extensibility element.</xs:documentation>
-                </xs:annotation>
-            </xs:any>
+            <xs:element name="item" type="Item" minOccurs="0" maxOccurs="unbounded" />
         </xs:sequence>
 
         <xs:anyAttribute namespace="##any">
@@ -250,7 +240,7 @@
         </xs:annotation>
 
         <xs:restriction base="xs:positiveInteger">
-            <xs:maxInclusive value="144"/>
+            <xs:maxInclusive value="144" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -261,7 +251,7 @@
         </xs:annotation>
 
         <xs:restriction base="xs:positiveInteger">
-            <xs:maxInclusive value="400"/>
+            <xs:maxInclusive value="400" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -270,11 +260,11 @@
             <xs:documentation>Specifies a web service that supports the rssCloud interface which can be implemented in HTTP-POST, XML-RPC or SOAP 1.1. Its purpose is to allow processes to register with a cloud to be notified of updates to the channel, implementing a lightweight publish-subscribe protocol for RSS feeds.</xs:documentation>
         </xs:annotation>
 
-        <xs:attribute name="domain" type="xs:string" use="required"/>
-        <xs:attribute name="port" type="xs:positiveInteger" use="required"/>
-        <xs:attribute name="path" type="xs:string" use="required"/>
-        <xs:attribute name="registerProcedure" type="xs:string" use="required"/>
-        <xs:attribute name="protocol" type="CloudProtocol" use="required"/>
+        <xs:attribute name="domain" type="xs:string" use="required" />
+        <xs:attribute name="port" type="xs:positiveInteger" use="required" />
+        <xs:attribute name="path" type="xs:string" use="required" />
+        <xs:attribute name="registerProcedure" type="xs:string" use="required" />
+        <xs:attribute name="protocol" type="CloudProtocol" use="required" />
     </xs:complexType>
 
     <xs:simpleType name="CloudProtocol">
@@ -283,9 +273,9 @@
         </xs:annotation>
 
         <xs:restriction base="xs:string">
-            <xs:enumeration value="xml-rpc"/>
-            <xs:enumeration value="http-post"/>
-            <xs:enumeration value="soap"/>
+            <xs:enumeration value="xml-rpc" />
+            <xs:enumeration value="http-post" />
+            <xs:enumeration value="soap" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -327,7 +317,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:element name="hour" type="SkipHour" minOccurs="0" maxOccurs="24"/>
+            <xs:element name="hour" type="SkipHour" minOccurs="0" maxOccurs="24" />
         </xs:sequence>
     </xs:complexType>
 
@@ -337,8 +327,8 @@
         </xs:annotation>
 
         <xs:restriction base="xs:nonNegativeInteger">
-            <xs:minInclusive value="0"/>
-            <xs:maxInclusive value="23"/>
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="23" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -358,17 +348,17 @@
         </xs:annotation>
 
         <xs:restriction base="xs:string">
-            <xs:enumeration value="Monday"/>
-            <xs:enumeration value="Tuesday"/>
-            <xs:enumeration value="Wednesday"/>
-            <xs:enumeration value="Thursday"/>
-            <xs:enumeration value="Friday"/>
-            <xs:enumeration value="Saturday"/>
-            <xs:enumeration value="Sunday"/>
+            <xs:enumeration value="Monday" />
+            <xs:enumeration value="Tuesday" />
+            <xs:enumeration value="Wednesday" />
+            <xs:enumeration value="Thursday" />
+            <xs:enumeration value="Friday" />
+            <xs:enumeration value="Saturday" />
+            <xs:enumeration value="Sunday" />
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:complexType name="RssItem">
+    <xs:complexType name="Item">
         <xs:annotation>
             <xs:documentation>A channel may contain any number of &lt;item&gt;s. An item may represent a "story" -- much like a story in a newspaper or magazine; if so its description is a synopsis of the story, and the link points to the full story. An item may also be complete in itself, if so, the description contains the text (entity-encoded HTML is allowed; see [examples](http://www.rssboard.org/rss-encoding-examples)), and the link and title may be omitted. All elements of an item are optional, however at least one of title or description must be present.</xs:documentation>
         </xs:annotation>
@@ -455,7 +445,7 @@
 
         <xs:simpleContent>
             <xs:extension base="xs:string">
-                <xs:attribute name="url" type="xs:anyURI"/>
+                <xs:attribute name="url" type="xs:anyURI" />
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
@@ -493,7 +483,7 @@
 
         <xs:simpleContent>
             <xs:extension base="xs:string">
-                <xs:attribute name="domain" type="xs:string" use="optional"/>
+                <xs:attribute name="domain" type="xs:string" use="optional" />
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
@@ -505,7 +495,7 @@
 
         <xs:simpleContent>
             <xs:extension base="xs:string">
-                <xs:attribute name="isPermaLink" type="xs:boolean" use="optional" default="true"/>
+                <xs:attribute name="isPermaLink" type="xs:boolean" use="optional" default="true" />
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
@@ -516,7 +506,7 @@
         </xs:annotation>
 
         <xs:restriction base="xs:string">
-            <xs:pattern value="([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])"/>
+            <xs:pattern value="([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -527,7 +517,7 @@
         </xs:annotation>
 
         <xs:restriction base="xs:string">
-            <xs:pattern value="(((Mon)|(Tue)|(Wed)|(Thu)|(Fri)|(Sat)|(Sun)), *)?\d\d? +((Jan)|(Feb)|(Mar)|(Apr)|(May)|(Jun)|(Jul)|(Aug)|(Sep)|(Oct)|(Nov)|(Dec)) +\d\d(\d\d)? +\d\d:\d\d(:\d\d)? +(([+\-]?\d\d\d\d)|(UT)|(GMT)|(EST)|(EDT)|(CST)|(CDT)|(MST)|(MDT)|(PST)|(PDT)|\w)"/>
+            <xs:pattern value="(((Mon)|(Tue)|(Wed)|(Thu)|(Fri)|(Sat)|(Sun)), *)?\d\d? +((Jan)|(Feb)|(Mar)|(Apr)|(May)|(Jun)|(Jul)|(Aug)|(Sep)|(Oct)|(Nov)|(Dec)) +\d\d(\d\d)? +\d\d:\d\d(:\d\d)? +(([+\-]?\d\d\d\d)|(UT)|(GMT)|(EST)|(EDT)|(CST)|(CDT)|(MST)|(MDT)|(PST)|(PDT)|\w)" />
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
