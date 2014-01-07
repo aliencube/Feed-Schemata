@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="rss"
-    targetNamespace="http://feed-schemata.aliencube.org/rss/2.0.11/rss.xsd"
-    xmlns="http://feed-schemata.aliencube.org/rss/2.0.11/rss.xsd"
-    xmlns:mstns="http://feed-schemata.aliencube.org/rss/2.0.11/rss.xsd"
+    targetNamespace="http://feed-schemata.aliencube.org/rss/2.0/rss.xsd"
+    xmlns="http://feed-schemata.aliencube.org/rss/2.0/rss.xsd"
+    xmlns:mstns="http://feed-schemata.aliencube.org/rss/2.0/rss.xsd"
     elementFormDefault="qualified"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="2.0.11"
