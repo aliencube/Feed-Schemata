@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Aliencube.FeedSchemata.Rdf.SiteSummary10")]
+[assembly: AssemblyTitle("Aliencube.FeedSchemata.Rss.Rss10")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("Aliencube.FeedSchemata.Rdf.SiteSummary10")]
+[assembly: AssemblyProduct("Aliencube.FeedSchemata.Rss.Rss10")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
