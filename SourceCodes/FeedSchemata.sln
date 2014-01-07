@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssSchema.2.0.11", "RssSchema.2.0.11\RssSchema.2.0.11.csproj", "{6618C575-24ED-48C9-AE98-657BB81BDE43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssSchema.2.0.11", "RSS\RssSchema.2.0.11\RssSchema.2.0.11.csproj", "{6618C575-24ED-48C9-AE98-657BB81BDE43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
