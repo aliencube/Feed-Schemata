@@ -132,12 +132,13 @@
 
     <xs:simpleType name="W3cDateTimeFormat">
         <xs:annotation>
-            <xs:documentation>Defines a base date to be used in concert with updatePeriod and updateFrequency to calculate the publishing schedule. The date format takes the form: yyyy-mm-ddThh:mm</xs:documentation>
-            <xs:documentation>DateTime format is refered to W3C (http://www.w3.org/TR/NOTE-datetime).</xs:documentation>
+            <xs:documentation>A point or period of time associated with an event in the lifecycle of the resource.</xs:documentation>
+            <xs:documentation>Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</xs:documentation>
+            <xs:documentation>Reference: W3DTF (http://www.w3.org/TR/NOTE-datetime)</xs:documentation>
         </xs:annotation>
 
         <xs:restriction base="xs:string">
-            <xs:pattern value="[12]\d{3}\-[01]\d\-[0-3]\dT[0-5]\d:[0-5]\d" />
+            <xs:pattern value="^\d{4}(\-\d{2}(\-\d{2}(T\d{2}:\d{2}(:\d{2}(\.\d+)?)?(\+|\-)\d{2}:\d{2})?)?)?$" />
         </xs:restriction>
     </xs:simpleType>
 
