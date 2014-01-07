@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RSS", "RSS", "{5679D0F8-BC2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssSchema.1.0", "RSS\RssSchema.1.0\RssSchema.1.0.csproj", "{C06883C7-B136-47F6-9FD5-D0794B6E48F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssSchema.2.0.11", "RSS\RssSchema.2.0.11\RssSchema.2.0.11.csproj", "{6618C575-24ED-48C9-AE98-657BB81BDE43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssSchema.2.0", "RSS\RssSchema.2.0\RssSchema.2.0.csproj", "{6618C575-24ED-48C9-AE98-657BB81BDE43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
