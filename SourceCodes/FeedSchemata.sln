@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssSchema.2.0.11", "RSS\RssSchema.2.0.11\RssSchema.2.0.11.csproj", "{6618C575-24ED-48C9-AE98-657BB81BDE43}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RSS", "RSS", "{5679D0F8-BC28-400F-B83A-1C2398271156}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ATOM", "ATOM", "{43D8C1F0-5FA3-4AB4-BC3C-CEB811D91BE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RDF", "RDF", "{11A75512-A301-4B0B-A34E-6952F9CE2E83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,5 +22,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6618C575-24ED-48C9-AE98-657BB81BDE43} = {5679D0F8-BC28-400F-B83A-1C2398271156}
 	EndGlobalSection
 EndGlobal
