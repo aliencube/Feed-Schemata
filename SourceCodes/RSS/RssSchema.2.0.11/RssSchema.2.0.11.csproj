@@ -7,8 +7,8 @@
     <ProjectGuid>{6618C575-24ED-48C9-AE98-657BB81BDE43}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Aliencube.RssSchema</RootNamespace>
-    <AssemblyName>Aliencube.RssSchema.2.0.11</AssemblyName>
+    <RootNamespace>Aliencube.FeedSchemata.Rss.Rss20</RootNamespace>
+    <AssemblyName>Aliencube.FeedSchemata.Rss.Rss20</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\Documents\Properties\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

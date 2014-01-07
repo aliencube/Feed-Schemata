@@ -7,8 +7,8 @@
     <ProjectGuid>{C06883C7-B136-47F6-9FD5-D0794B6E48F5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Aliencube.SiteSummarySchema</RootNamespace>
-    <AssemblyName>Aliencube.SiteSummarySchema.1.0</AssemblyName>
+    <RootNamespace>Aliencube.FeedSchemata.Rdf.SiteSummary10</RootNamespace>
+    <AssemblyName>Aliencube.FeedSchemata.Rdf.SiteSummary10</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\Documents\Properties\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
