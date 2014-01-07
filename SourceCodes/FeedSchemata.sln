@@ -9,6 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ATOM", "ATOM", "{43D8C1F0-5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RDF", "RDF", "{11A75512-A301-4B0B-A34E-6952F9CE2E83}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documents", "_Documents", "{1C432D46-75AF-4BF4-AF27-4319D3053CBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{71913FC3-2657-48BB-BB9E-0B672E87ED16}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documents\Samples\Atom.Blogspot.xml = ..\Documents\Samples\Atom.Blogspot.xml
+		..\Documents\Samples\Rss.Blogspot.xml = ..\Documents\Samples\Rss.Blogspot.xml
+		..\Documents\Samples\Rss.Wordpress.xml = ..\Documents\Samples\Rss.Wordpress.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6618C575-24ED-48C9-AE98-657BB81BDE43} = {5679D0F8-BC28-400F-B83A-1C2398271156}
+		{71913FC3-2657-48BB-BB9E-0B672E87ED16} = {1C432D46-75AF-4BF4-AF27-4319D3053CBE}
 	EndGlobalSection
 EndGlobal
