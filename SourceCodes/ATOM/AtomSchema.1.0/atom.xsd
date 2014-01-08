@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="atom"
+    targetNamespace="http://www.w3.org/2005/Atom"
+    xmlns="http://www.w3.org/2005/Atom"
+    xmlns:mstns="http://www.w3.org/2005/Atom"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="1.0"
+>
+    <!--
+        Due to the issue stated [here](http://www.w3.org/blog/systeam/2008/02/08/w3c_s_excessive_dtd_traffic/), the schema
+        is locally copied, http://feed-schemata.aliencube.org/2009/01/xml.xsd, and used, instead of using the original
+        location, http://www.w3.org/2009/01/xml.xsd. However, for now, it will use the latest reference URL.
+        Reference: http://stackoverflow.com/questions/6117627/the-http-www-w3-org-xml-1998-namespacelang-attribute-is-not-declared
+    -->
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd" />
+
+    <xs:annotation>
+        <xs:documentation>XML Schema for ATOM feeds 1.0</xs:documentation>
+        <xs:documentation>This is based on the ATOM 1.0 specification document defined by IETF atompub Working Group (http://atomenabled.org/developers/syndication/).</xs:documentation>
+        <xs:documentation>URL: http://feed-schemata.aliencube.org</xs:documentation>
+        <xs:documentation>Author: Aliencube Community</xs:documentation>
+        <xs:documentation>Issues: Any issue related this can be raised here (https://github.com/aliencube/Feed-Schemata/issues).</xs:documentation>
+        <xs:documentation>License: This is released under MIT License (http://opensource.org/licenses/MIT).</xs:documentation>
+        <xs:documentation>Acknowledgement: This is referenced from [here] (http://www.kbcafe.com/rss/atom.xsd.xml).</xs:documentation>
+    </xs:annotation>
+
+    <xs:element name="feed" type="Feed">
+        <xs:annotation>
+            <xs:documentation>The "atom:feed" element is the document (i.e., top-level) element of an Atom Feed Document, acting as a container for metadata and data associated with the feed.  Its element children consist of metadata elements followed by zero or more atom:entry child elements.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:complexType name="Feed">
+        <xs:annotation>
+            <xs:documentation>The "atom:feed" element is the document (i.e., top-level) element of an Atom Feed Document, acting as a container for metadata and data associated with the feed.  Its element children consist of metadata elements followed by zero or more atom:entry child elements.</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <!-- Required elements -->
+                <xs:element name="id" type="Id">
+                    <xs:annotation>
+                        <xs:documentation>Identifies the feed using a universally unique and permanent URI. If you have a long-term, renewable lease on your Internet domain name, then you can feel free to use your website's address.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="title" type="Text">
+                    <xs:annotation>
+                        <xs:documentation>Contains a human readable title for the feed. Often the same as the title of the associated website. This value should not be blank.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="updated" type="Rfc3339DateTimeFormat">
+                    <xs:annotation>
+                        <xs:documentation>Indicates the last time the feed was modified in a significant way.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+
+                <!-- Optional elements -->
+                <xs:element name="author" type="Person" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Names one author of the feed. A feed may have multiple author elements. A feed must contain at least one author element unless all of the entry elements contain at least one author element. More info [here](http://atomenabled.org/developers/syndication/#person).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="link" type="Link" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies a related Web page. The type of relation is defined by the rel attribute. A feed is limited to one alternate per type and hreflang. A feed should contain a link back to the feed itself. More info [here](http://atomenabled.org/developers/syndication/#link).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="category" type="Category" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Specifies a category that the feed belongs to. A feed may have multiple category elements. More info [here](http://atomenabled.org/developers/syndication/#category).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="contributor" type="Person" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Names one contributor to the feed. An feed may have multiple contributor elements. More info [here](http://atomenabled.org/developers/syndication/#person).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="generator" type="Generator" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies the software used to generate the feed, for debugging and other purposes. Both the uri and version attributes are optional.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="icon" type="Icon" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies a small image which provides iconic visual identification for the feed. Icons should be square.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="logo" type="Logo" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies a larger image which provides visual identification for the feed. Images should be twice as wide as they are tall.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="rights" type="Text" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Conveys information about rights, e.g. copyrights, held in and over the feed. More info [here](http://atomenabled.org/developers/syndication/#text).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="subtitle" type="Text" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Contains a human-readable description or subtitle for the feed. More info [here](http://atomenabled.org/developers/syndication/#text).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="entry" type="Entry" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>The "atom:entry" element represents an individual entry, acting as a container for metadata and data associated with the entry. This element can appear as a child of the atom:feed element, or it can appear as the document (i.e., top-level) element of a stand-alone Atom Entry Document.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+
+                <!-- Extensible elements -->
+                <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Extensibility element.</xs:documentation>
+                    </xs:annotation>
+                </xs:any>
+            </xs:choice>
+        </xs:sequence>
+
+        <xs:attributeGroup ref="CommonAttributes"/>
+    </xs:complexType>
+
+    <xs:complexType name="Entry">
+        <xs:annotation>
+            <xs:documentation>The "atom:entry" element represents an individual entry, acting as a container for metadata and data associated with the entry. This element can appear as a child of the atom:feed element, or it can appear as the document (i.e., top-level) element of a stand-alone Atom Entry Document.</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <!-- Required elements -->
+                <xs:element name="id" type="Id">
+                    <xs:annotation>
+                        <xs:documentation>Identifies the entry using a universally unique and permanent URI. Suggestions on how to make a good id can be found [here](http://diveintomark.org/archives/2004/05/28/howto-atom-id). Two entries in a feed can have the same value for id if they represent the same entry at different points in time.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="title" type="Text">
+                    <xs:annotation>
+                        <xs:documentation>Contains a human readable title for the entry. This value should not be blank.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="updated" type="Rfc3339DateTimeFormat">
+                    <xs:annotation>
+                        <xs:documentation>Indicates the last time the entry was modified in a significant way. This value need not change after a typo is fixed, only after a substantial modification. Generally, different entries in a feed will have different updated timestamps.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+
+                <!-- Optional elements -->
+                <xs:element name="author" type="Person" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Names one author of the entry. An entry may have multiple authors. An entry must contain at least one author element unless there is an author element in the enclosing feed, or there is an author element in the enclosed source element. More info [here](http://atomenabled.org/developers/syndication/#person).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="content" type="Content" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Contains or links to the complete content of the entry. Content must be provided if there is no alternate link, and should be provided if there is no summary. More info [here](http://atomenabled.org/developers/syndication/#contentElement).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="link" type="Link" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies a related Web page. The type of relation is defined by the rel attribute. An entry is limited to one alternate per type and hreflang. An entry must contain an alternate link if there is no content element. More info [here](http://atomenabled.org/developers/syndication/#link).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="summary" type="Text" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Conveys a short summary, abstract, or excerpt of the entry. Summary should be provided if there either is no content provided for the entry, or that content is not inline (i.e., contains a src attribute), or if the content is encoded in base64. More info [here](http://atomenabled.org/developers/syndication/#text).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="category" type="Category" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Specifies a category that the entry belongs to. A entry may have multiple category elements. More info [here](http://atomenabled.org/developers/syndication/#category).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="contributor" type="Person" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Names one contributor to the entry. An entry may have multiple contributor elements. More info [here](http://atomenabled.org/developers/syndication/#person).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="published" type="Rfc3339DateTimeFormat" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Contains the time of the initial creation or first availability of the entry.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="source" type="Source" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>If an entry is copied from one feed into another feed, then the source feed‘s metadata (all child elements of feed other than the entry elements) should be preserved if the source feed contains any of the child elements author, contributor, rights, or category and those child elements are not present in the source entry.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="rights" type="Text" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Conveys information about rights, e.g. copyrights, held in and over the entry. More info [here](http://atomenabled.org/developers/syndication/#text).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+
+                <!-- Extensible elements -->
+                <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Extensibility element.</xs:documentation>
+                    </xs:annotation>
+                </xs:any>
+            </xs:choice>
+        </xs:sequence>
+
+        <xs:attributeGroup ref="CommonAttributes"/>
+    </xs:complexType>
+
+    <xs:attributeGroup name="CommonAttributes">
+        <xs:annotation>
+            <xs:documentation></xs:documentation>
+        </xs:annotation>
+
+        <xs:attribute ref="xml:lang">
+            <xs:annotation>
+                <xs:documentation>may be used to identify the language of any human readable text.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute ref="xml:base">
+            <xs:annotation>
+                <xs:documentation>may be used to control how relative URIs are resolved.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:anyAttribute namespace="##other">
+            <xs:annotation>
+                <xs:documentation>Extensibility attribute to define additional namespaces.</xs:documentation>
+            </xs:annotation>
+        </xs:anyAttribute>
+
+    </xs:attributeGroup>
+
+    <xs:complexType name="Id">
+        <xs:annotation>
+            <xs:documentation>Identifies the feed using a universally unique and permanent URI. If you have a long-term, renewable lease on your Internet domain name, then you can feel free to use your website's address.</xs:documentation>
+        </xs:annotation>
+
+        <xs:simpleContent>
+            <xs:extension base="xs:anyURI">
+                <xs:attributeGroup ref="CommonAttributes" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="Text" mixed="true">
+        <xs:annotation>
+            <xs:documentation>contains human-readable text, usually in small quantities. The type attribute determines how this information is encoded (default="text")</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:any namespace="http://www.w3.org/1999/xhtml" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+
+        <xs:attribute name="type" type="TextType">
+            <xs:annotation>
+                <xs:documentation>Defines the type of the text. Possible values are "text", "html" and "xhtml"</xs:documentation>
+                <xs:documentation>If type="text", then this element contains plain text with no entity escaped html.</xs:documentation>
+                <xs:documentation><![CDATA[<pre>&lt;title type="text"&gt;AT&amp;T bought by SBC!&lt;/title&gt;</pre>]]></xs:documentation>
+                <xs:documentation>If type="html", then this element contains entity escaped html.</xs:documentation>
+                <xs:documentation><![CDATA[<pre>&lt;title type="html"&gt;AT&amp;amp;T bought &lt;b&gt;by SBC&lt;/b&gt;!&lt;/title&gt;</pre>]]></xs:documentation>
+                <xs:documentation>If type="xhtml", then this element contains inline xhtml, wrapped in a div element.</xs:documentation>
+                <xs:documentation><![CDATA[<pre>&lt;title type="xhtml"&gt;&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;AT&amp;T bought &lt;b&gt;by SBC&lt;/b&gt;!&lt;/div&gt;&lt;/title&gt;</pre>]]></xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attributeGroup ref="CommonAttributes"/>
+    </xs:complexType>
+
+    <xs:simpleType name="TextType">
+        <xs:annotation>
+            <xs:documentation>Defines the type of the text. Possible values are "text", "html" and "xhtml"</xs:documentation>
+            <xs:documentation>If type="text", then this element contains plain text with no entity escaped html.</xs:documentation>
+            <xs:documentation><![CDATA[<pre>&lt;title type="text"&gt;AT&amp;T bought by SBC!&lt;/title&gt;</pre>]]></xs:documentation>
+            <xs:documentation>If type="html", then this element contains entity escaped html.</xs:documentation>
+            <xs:documentation><![CDATA[<pre>&lt;title type="html"&gt;AT&amp;amp;T bought &lt;b&gt;by SBC&lt;/b&gt;!&lt;/title&gt;</pre>]]></xs:documentation>
+            <xs:documentation>If type="xhtml", then this element contains inline xhtml, wrapped in a div element.</xs:documentation>
+            <xs:documentation><![CDATA[<pre>&lt;title type="xhtml"&gt;&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;AT&amp;T bought &lt;b&gt;by SBC&lt;/b&gt;!&lt;/div&gt;&lt;/title&gt;</pre>]]></xs:documentation>
+        </xs:annotation>
+
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="text" />
+            <xs:enumeration value="html" />
+            <xs:enumeration value="xhtml" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Rfc3339DateTimeFormat">
+        <xs:annotation>
+            <xs:documentation>A date-time displayed in RFC-3339 format.</xs:documentation>
+        </xs:annotation>
+
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{4}\-\d{2}\-\d{2}T\d{2}:\d{2}:\d{2}\.\d+(Z|(\+|\-)\d{2}:\d{2})" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Person">
+        <xs:annotation>
+            <xs:documentation>Names one author of the feed. A feed may have multiple author elements. A feed must contain at least one author element unless all of the entry elements contain at least one author element. More info [here](http://atomenabled.org/developers/syndication/#person).</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <!-- Required elements -->
+                <xs:element name="name" type="xs:string">
+                    <xs:annotation>
+                        <xs:documentation>conveys a human-readable name for the person.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+
+                <!-- Optional elements -->
+                <xs:element name="uri" type="xs:anyURI" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>contains a home page for the person.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="email" type="EmailAddress" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>contains an email address for the person.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+
+                <!-- Extensible elements -->
+                <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Extensibility element.</xs:documentation>
+                    </xs:annotation>
+                </xs:any>
+            </xs:choice>
+        </xs:sequence>
+
+        <xs:attributeGroup ref="CommonAttributes"/>
+    </xs:complexType>
+
+    <xs:simpleType name="EmailAddress">
+        <xs:annotation>
+            <xs:documentation>Using the regexp definiton of E-Mail Address by Lucadean from the .NET RegExp Pattern Repository at http://www.3leaf.com/default/NetRegExpRepository.aspx </xs:documentation>
+        </xs:annotation>
+
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Link">
+        <xs:annotation>
+            <xs:documentation>is patterned after html’s link element. It has one required attribute, href, and five optional attributes: rel, type, hreflang, title, and length.</xs:documentation>
+        </xs:annotation>
+
+        <xs:attribute name="href" type="xs:anyURI" use="required">
+            <xs:annotation>
+                <xs:documentation>is the URI of the referenced resource (typically a Web page)</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attribute name="rel" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>contains a single link relationship type. It can be a full URI (see [extensibility](http://atomenabled.org/developers/syndication/#extensibility)), or one of the predefined values (default=alternate)</xs:documentation>
+                <xs:documentation>alternate: an alternate representation of the entry or feed, for example a permalink to the html version of the entry, or the front page of the weblog.</xs:documentation>
+                <xs:documentation>enclosure: a related resource which is potentially large in size and might require special handling, for example an audio or video recording.</xs:documentation>
+                <xs:documentation>related: an document related to the entry or feed.</xs:documentation>
+                <xs:documentation>self: the feed itself.</xs:documentation>
+                <xs:documentation>via: the source of the information provided in the entry.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attribute name="type" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>indicates the media type of the resource.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attribute name="hreflang" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>indicates the language of the referenced resource.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        
+        <xs:attribute name="title" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>human readable information about the link, typically for display purposes.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        
+        <xs:attribute name="length" type="xs:positiveInteger" use="optional">
+            <xs:annotation>
+                <xs:documentation>the length of the resource, in bytes.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attributeGroup ref="CommonAttributes"/>
+    </xs:complexType>
+
+    <xs:complexType name="Category">
+        <xs:annotation>
+            <xs:documentation>Specifies a category that the feed belongs to. A feed may have multiple category elements. More info [here](http://atomenabled.org/developers/syndication/#category).</xs:documentation>
+        </xs:annotation>
+
+        <xs:attribute name="term" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>identifies the category</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attribute name="scheme" type="xs:anyURI" use="optional">
+            <xs:annotation>
+                <xs:documentation>identifies the categorization scheme via a URI.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attribute name="label " type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>provides a human-readable label for display.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attributeGroup ref="CommonAttributes"/>
+    </xs:complexType>
+
+    <xs:complexType name="Generator">
+        <xs:annotation>
+            <xs:documentation>Identifies the software used to generate the feed, for debugging and other purposes. Both the uri and version attributes are optional.</xs:documentation>
+        </xs:annotation>
+
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="uri" type="xs:anyURI" use="optional" />
+                <xs:attribute name="version" type="xs:string" use="optional" />
+
+                <xs:attributeGroup ref="CommonAttributes"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="Icon">
+        <xs:annotation>
+            <xs:documentation>Identifies a small image which provides iconic visual identification for the feed. Icons should be square.</xs:documentation>
+        </xs:annotation>
+
+        <xs:simpleContent>
+            <xs:extension base="xs:anyURI">
+                <xs:attributeGroup ref="CommonAttributes" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="Logo">
+        <xs:annotation>
+            <xs:documentation>Identifies a larger image which provides visual identification for the feed. Images should be twice as wide as they are tall.</xs:documentation>
+        </xs:annotation>
+
+        <xs:simpleContent>
+            <xs:extension base="xs:anyURI">
+                <xs:attributeGroup ref="CommonAttributes" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="Content" mixed="true">
+        <xs:annotation>
+            <xs:documentation>either contains, or links to, the complete content of the entry.</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:any namespace="##other" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+
+        <xs:attribute name="type" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>is the media type of the content.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attribute name="src" type="xs:anyURI" use="optional">
+            <xs:annotation>
+                <xs:documentation>represents the URI of where the content can be found</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        
+        <xs:attributeGroup ref="CommonAttributes"/>
+    </xs:complexType>
+
+    <xs:complexType name="Source">
+        <xs:annotation>
+            <xs:documentation>If an entry is copied from one feed into another feed, then the source feed‘s metadata (all child elements of feed other than the entry elements) should be preserved if the source feed contains any of the child elements author, contributor, rights, or category and those child elements are not present in the source entry.</xs:documentation>
+        </xs:annotation>
+    
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <!-- Optional elements -->
+                <xs:element name="id" type="Id" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies the feed using a universally unique and permanent URI. If you have a long-term, renewable lease on your Internet domain name, then you can feel free to use your website's address.</xs:documentation>
+                        <xs:documentation><![CDATA[Example: <pre>&lt;id&gt;http://example.com/&lt;/id&gt;</pre>]]></xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="title" type="Text" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Contains a human readable title for the feed. Often the same as the title of the associated website. This value should not be blank.</xs:documentation>
+                        <xs:documentation><![CDATA[Example: <pre>&lt;title&gt;Example, Inc.&lt;/title&gt;</pre>]]></xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="updated" type="Rfc3339DateTimeFormat" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Indicates the last time the feed was modified in a significant way.</xs:documentation>
+                        <xs:documentation><![CDATA[Example: <pre>&lt;updated&gt;2003-12-13T18:30:02Z&lt;/updated&gt;</pre>]]></xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="author" type="Person" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Names one author of the feed. A feed may have multiple author elements. A feed must contain at least one author element unless all of the entry elements contain at least one author element. More info [here](http://atomenabled.org/developers/syndication/#person).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="link" type="Link" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies a related Web page. The type of relation is defined by the rel attribute. A feed is limited to one alternate per type and hreflang. A feed should contain a link back to the feed itself. More info [here](http://atomenabled.org/developers/syndication/#link).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="category" type="Category" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Specifies a category that the feed belongs to. A feed may have multiple category elements. More info [here](http://atomenabled.org/developers/syndication/#category).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="contributor" type="Person" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Names one contributor to the feed. An feed may have multiple contributor elements. More info [here](http://atomenabled.org/developers/syndication/#person).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="generator" type="Generator" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies the software used to generate the feed, for debugging and other purposes. Both the uri and version attributes are optional.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="icon" type="Icon" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies a small image which provides iconic visual identification for the feed. Icons should be square.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="logo" type="Logo" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Identifies a larger image which provides visual identification for the feed. Images should be twice as wide as they are tall.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="rights" type="Text" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Conveys information about rights, e.g. copyrights, held in and over the feed. More info [here](http://atomenabled.org/developers/syndication/#text).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="subtitle" type="Text" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Contains a human-readable description or subtitle for the feed. More info [here](http://atomenabled.org/developers/syndication/#text).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+
+                <!-- Extensible elements -->
+                <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Extensibility element.</xs:documentation>
+                    </xs:annotation>
+                </xs:any>
+            </xs:choice>
+        </xs:sequence>
+        
+        <xs:attributeGroup ref="CommonAttributes"/>
+    </xs:complexType>
+</xs:schema>
