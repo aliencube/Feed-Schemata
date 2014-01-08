@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="atom"
+    targetNamespace="http://feed-schemata.aliencube.org/atom/1.0/atom.xsd"
+    xmlns="http://feed-schemata.aliencube.org/atom/1.0/atom.xsd"
+    xmlns:mstns="http://feed-schemata.aliencube.org/atom/1.0/atom.xsd"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="1.0"
+>
+</xs:schema>

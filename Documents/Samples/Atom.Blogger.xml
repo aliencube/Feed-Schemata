@@ -1,0 +1,876 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?>
+<feed xmlns='http://www.w3.org/2005/Atom'
+      xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+      xmlns:blogger='http://schemas.google.com/blogger/2008'
+      xmlns:georss='http://www.georss.org/georss'
+      xmlns:gd="http://schemas.google.com/g/2005"
+      xmlns:thr='http://purl.org/syndication/thread/1.0'>
+    <id>tag:blogger.com,1999:blog-4925515924837801296</id>
+    <updated>2014-01-07T14:35:11.595-08:00</updated>
+    <category term="일상"/>
+    <category term="일"/>
+    <category term="Web 2.0"/>
+    <category term="구글"/>
+    <category term="블로그"/>
+    <category term="텍스트큐브닷컴"/>
+    <category term="애플"/>
+    <category term="페이스북"/>
+    <category term="네이버"/>
+    <category term="마이크로소프트"/>
+    <category term="실리콘밸리"/>
+    <category term="아이폰"/>
+    <category term="야후"/>
+    <category term="텍스트큐브"/>
+    <category term="리체"/>
+    <category term="벤처"/>
+    <category term="스킨"/>
+    <category term="웹 2.0"/>
+    <category term="지메일"/>
+    <category term="Web 2.0 Asia"/>
+    <category term="개발자"/>
+    <category term="검색"/>
+    <category term="노키아"/>
+    <category term="달러"/>
+    <category term="대기업"/>
+    <category term="델"/>
+    <category term="디자인"/>
+    <category term="매킨토시"/>
+    <category term="맥북프로"/>
+    <category term="미국"/>
+    <category term="벤처캐피탈"/>
+    <category term="북한"/>
+    <category term="삼성"/>
+    <category term="세미나"/>
+    <category term="스타트업"/>
+    <category term="스티브 발머"/>
+    <category term="안드로이드"/>
+    <category term="오바마"/>
+    <category term="오픈아이디"/>
+    <category term="오픈웹 아시아"/>
+    <category term="워드프레스"/>
+    <category term="창업"/>
+    <category term="창의성"/>
+    <category term="크롬"/>
+    <category term="태터캠프"/>
+    <category term="태터툴즈"/>
+    <category term="폴 그레이엄"/>
+    <category term="홈페이지"/>
+    <category term="10분간 휴식"/>
+    <category term="2pm"/>
+    <category term="37signals"/>
+    <category term="51.com"/>
+    <category term="Automattic"/>
+    <category term="BMW"/>
+    <category term="C2"/>
+    <category term="Demo"/>
+    <category term="Duarte"/>
+    <category term="ECC관"/>
+    <category term="Elon Musk"/>
+    <category term="Eric Kim"/>
+    <category term="FOAF"/>
+    <category term="Facebook"/>
+    <category term="Fake Your Space"/>
+    <category term="Feature vs. Company"/>
+    <category term="GGG"/>
+    <category term="Google Coop"/>
+    <category term="HP"/>
+    <category term="Harris"/>
+    <category term="Iworks"/>
+    <category term="Joe Kraus"/>
+    <category term="Jotspot"/>
+    <category term="Keynote"/>
+    <category term="LIFT"/>
+    <category term="LIFT Asia"/>
+    <category term="L양"/>
+    <category term="MS"/>
+    <category term="MWLC"/>
+    <category term="Made to Stick"/>
+    <category term="Mahalo"/>
+    <category term="Michigan"/>
+    <category term="MySQL"/>
+    <category term="NHN"/>
+    <category term="Networked Blogs"/>
+    <category term="OAuth"/>
+    <category term="Open"/>
+    <category term="Outspark"/>
+    <category term="Ovi"/>
+    <category term="PC"/>
+    <category term="Planet Chang"/>
+    <category term="Pluck"/>
+    <category term="Provigil"/>
+    <category term="QT wildcat"/>
+    <category term="Red"/>
+    <category term="SEO"/>
+    <category term="SGI"/>
+    <category term="SKT"/>
+    <category term="SUN"/>
+    <category term="Salmon"/>
+    <category term="SpaceX"/>
+    <category term="Startup genome project"/>
+    <category term="TED"/>
+    <category term="Tesla Motors"/>
+    <category term="The Office"/>
+    <category term="The start project"/>
+    <category term="Thinkweek"/>
+    <category term="TnC"/>
+    <category term="Toyota"/>
+    <category term="UI"/>
+    <category term="UT"/>
+    <category term="Unclutterer"/>
+    <category term="VC"/>
+    <category term="Weebly"/>
+    <category term="Wisia"/>
+    <category term="WriteRoom"/>
+    <category term="XFN"/>
+    <category term="Youtube XL"/>
+    <category term="android"/>
+    <category term="beLaunch"/>
+    <category term="bea"/>
+    <category term="change"/>
+    <category term="chester"/>
+    <category term="cross-fit"/>
+    <category term="disqus"/>
+    <category term="hcard"/>
+    <category term="ilife"/>
+    <category term="knol"/>
+    <category term="leezche"/>
+    <category term="lunamoth"/>
+    <category term="me2movie"/>
+    <category term="paypal"/>
+    <category term="post"/>
+    <category term="sedo"/>
+    <category term="seesmic"/>
+    <category term="twitter"/>
+    <category term="uae"/>
+    <category term="youtube"/>
+    <category term="가본 나라들"/>
+    <category term="각설이"/>
+    <category term="간담회"/>
+    <category term="개인화"/>
+    <category term="개짓"/>
+    <category term="겐도"/>
+    <category term="겐도사마"/>
+    <category term="경매"/>
+    <category term="고소영"/>
+    <category term="골드미스"/>
+    <category term="광고"/>
+    <category term="교내망"/>
+    <category term="구글 마이너스 구글"/>
+    <category term="구글 모바일"/>
+    <category term="구글 크롬"/>
+    <category term="구글 토픽서치"/>
+    <category term="구글 프로파일"/>
+    <category term="금나나"/>
+    <category term="김 제임스 우"/>
+    <category term="김영사"/>
+    <category term="김태우"/>
+    <category term="깨"/>
+    <category term="꽃나"/>
+    <category term="꿈"/>
+    <category term="나이"/>
+    <category term="남자 교사"/>
+    <category term="노트북"/>
+    <category term="다음"/>
+    <category term="대체에너지"/>
+    <category term="대한민국"/>
+    <category term="댓글 알리미"/>
+    <category term="더 스타트 프로젝트"/>
+    <category term="데이터 포터빌리티"/>
+    <category term="델 코리아"/>
+    <category term="도메인"/>
+    <category term="도움"/>
+    <category term="도킹스테이션"/>
+    <category term="독일군대"/>
+    <category term="동경"/>
+    <category term="동양남자"/>
+    <category term="디스트릭트"/>
+    <category term="디씨인사이드"/>
+    <category term="라이프스트리밍"/>
+    <category term="레드홀릭"/>
+    <category term="로봇"/>
+    <category term="루엘"/>
+    <category term="류한석"/>
+    <category term="리콜"/>
+    <category term="리포터 굴욕"/>
+    <category term="리프트"/>
+    <category term="리프트 아시아"/>
+    <category term="마리사 메이어"/>
+    <category term="마이크로포맷"/>
+    <category term="마케팅"/>
+    <category term="맥북"/>
+    <category term="메모리즈 릴로디드"/>
+    <category term="메신저 피싱"/>
+    <category term="명함"/>
+    <category term="모바일"/>
+    <category term="모바일 웹 리더스 캠프"/>
+    <category term="모토롤라"/>
+    <category term="무버블타입"/>
+    <category term="문돌이"/>
+    <category term="문제"/>
+    <category term="물리학"/>
+    <category term="미니"/>
+    <category term="미디어"/>
+    <category term="미쳐야 미친다"/>
+    <category term="미투데이"/>
+    <category term="바이럴"/>
+    <category term="바캠프"/>
+    <category term="바코드"/>
+    <category term="박진영"/>
+    <category term="백인여자"/>
+    <category term="백지수표"/>
+    <category term="번역스팸"/>
+    <category term="베타"/>
+    <category term="벤처투자"/>
+    <category term="변화"/>
+    <category term="부모 2.0"/>
+    <category term="붙여넣기"/>
+    <category term="블로거닷컴"/>
+    <category term="블로그 팁"/>
+    <category term="블로그검색"/>
+    <category term="블로그스팟"/>
+    <category term="블로깅"/>
+    <category term="비즈니스 블로그 서밋 2008"/>
+    <category term="비판"/>
+    <category term="빌 게이츠 삼촌"/>
+    <category term="사고실험"/>
+    <category term="사색주간"/>
+    <category term="삼성특검"/>
+    <category term="새먼"/>
+    <category term="서명덕"/>
+    <category term="서태지"/>
+    <category term="석유"/>
+    <category term="섬"/>
+    <category term="소녀시대"/>
+    <category term="소세지"/>
+    <category term="소셜"/>
+    <category term="소셜그래프"/>
+    <category term="소셜미디어"/>
+    <category term="송아지"/>
+    <category term="수익모델"/>
+    <category term="스킨에디터"/>
+    <category term="스티브 잡스"/>
+    <category term="스팸전화"/>
+    <category term="시럽계"/>
+    <category term="실리콘그래픽스"/>
+    <category term="싸이월드"/>
+    <category term="썬"/>
+    <category term="아기"/>
+    <category term="아들"/>
+    <category term="아부다비"/>
+    <category term="아빠"/>
+    <category term="아시아나"/>
+    <category term="아시아웹컨퍼런스"/>
+    <category term="아웃스파크"/>
+    <category term="아인슈타인"/>
+    <category term="아프가니스탄"/>
+    <category term="악플"/>
+    <category term="알바트로스"/>
+    <category term="야경"/>
+    <category term="야구"/>
+    <category term="야후코리아"/>
+    <category term="어플리케이션"/>
+    <category term="언어순화"/>
+    <category term="에릭 클랩튼"/>
+    <category term="엔지니어"/>
+    <category term="여자"/>
+    <category term="여자문제"/>
+    <category term="연하남"/>
+    <category term="염장"/>
+    <category term="영어"/>
+    <category term="예비군"/>
+    <category term="오라클"/>
+    <category term="오버 더 레인보우"/>
+    <category term="오션스 일레븐"/>
+    <category term="오케스트라"/>
+    <category term="오프로더"/>
+    <category term="오픈"/>
+    <category term="오픈 웹 아시아"/>
+    <category term="오픈베타"/>
+    <category term="오픈소셜"/>
+    <category term="온라인게임"/>
+    <category term="우병현"/>
+    <category term="워낭소리"/>
+    <category term="워렛 버핏"/>
+    <category term="원더걸스"/>
+    <category term="웹 오피스"/>
+    <category term="웹디벨로퍼"/>
+    <category term="웹사이트"/>
+    <category term="웹접근성"/>
+    <category term="유저빌리티"/>
+    <category term="윤석찬"/>
+    <category term="이공계"/>
+    <category term="이글루스백업"/>
+    <category term="이대"/>
+    <category term="이동하"/>
+    <category term="이바닥"/>
+    <category term="이벤트"/>
+    <category term="이분법"/>
+    <category term="이스라엘"/>
+    <category term="이승철"/>
+    <category term="이지"/>
+    <category term="인도"/>
+    <category term="인물계"/>
+    <category term="인재"/>
+    <category term="인천"/>
+    <category term="일론 머스크"/>
+    <category term="일본"/>
+    <category term="입문계"/>
+    <category term="잡지"/>
+    <category term="장세진"/>
+    <category term="장진영"/>
+    <category term="장효곤"/>
+    <category term="재생에너지"/>
+    <category term="전기자동차"/>
+    <category term="전화"/>
+    <category term="제리 양"/>
+    <category term="제주도"/>
+    <category term="주니어"/>
+    <category term="중국"/>
+    <category term="지름신"/>
+    <category term="집단 선배지성"/>
+    <category term="징징"/>
+    <category term="초고층 건물"/>
+    <category term="초등학생"/>
+    <category term="최민수"/>
+    <category term="추천"/>
+    <category term="추천 블로그 릴레이"/>
+    <category term="친환경"/>
+    <category term="컨버터블 노트"/>
+    <category term="컴퓨터"/>
+    <category term="크로스핏"/>
+    <category term="클로즈드"/>
+    <category term="태양에너지"/>
+    <category term="태우"/>
+    <category term="태터앤미디어"/>
+    <category term="테슬라"/>
+    <category term="테크크런치"/>
+    <category term="텔미"/>
+    <category term="토씨"/>
+    <category term="토요타"/>
+    <category term="트위터"/>
+    <category term="티스토리"/>
+    <category term="티켓"/>
+    <category term="팔만대장"/>
+    <category term="패러디"/>
+    <category term="패밀레데이"/>
+    <category term="펀경영"/>
+    <category term="펫"/>
+    <category term="포털"/>
+    <category term="폰트"/>
+    <category term="표현의 자유"/>
+    <category term="퓨쳐캠프"/>
+    <category term="프레드 윌슨"/>
+    <category term="프레젠테이션"/>
+    <category term="프로그래밍"/>
+    <category term="프로그래밍 언어"/>
+    <category term="프리즌브레이크"/>
+    <category term="프린트"/>
+    <category term="하테나"/>
+    <category term="한국"/>
+    <category term="한글날"/>
+    <category term="한기훈"/>
+    <category term="한재선"/>
+    <category term="핫도그"/>
+    <category term="해킨토시"/>
+    <category term="홈페이지 2.0"/>
+    <category term="홍콩"/>
+    <category term="환경"/>
+    <category term="휴대폰"/>
+    <title type='text'>Memories Reloaded</title>
+    <subtitle type='html'>한국 + 실리콘밸리. 김창원 블로그.</subtitle>
+    <link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/posts/default'/>
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default'/>
+    <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/'/>
+    <link rel='hub' href='http://pubsubhubbub.appspot.com/'/>
+    <link rel='next' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default?start-index=26&amp;max-results=25'/>
+    <author>
+        <name>Chang</name>
+        <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+        <email>noreply@blogger.com</email>
+        <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+    </author>
+    <generator version='7.00' uri='http://www.blogger.com'>Blogger</generator>
+    <openSearch:totalResults>581</openSearch:totalResults>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-88470592918438677</id>
+        <published>2013-12-25T18:13:00.000-08:00</published>
+        <updated>2013-12-25T18:13:00.556-08:00</updated>
+        <title type='text'>20세 또는 20 million? </title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;누군가 질문을 했다. “만일 20세로 돌아갈 수 있거나 $20 million을 벌수 있다면 어떤걸 택하겠는가?” 나는 주저하지 않고 20 million을 택했다. 돈이 없어서기도 하지만^^ 굳이 20세로 돌아가야 하는지 잘 모르겠기도 했다.&lt;br /&gt;&lt;br /&gt;나의 20대, 그것도 초반을 생각해보면, 그림으로 치자면 마치 크레용을 잡은 손의 힘조절이 안되서 삐죽삐죽 온갖 모서리가 튀어나와있는 아이의 그림, 그런 이미지가 떠오른다. 책 하나를 읽을때도 세상의 모든 생각을 나혼자 하는 사람처럼 상념에 사로잡히기 일쑤였고, 심지어 다음 문장을 만나기 두려울 때도 있었다.&lt;br /&gt;&lt;br /&gt;반면 뒤돌아 생각하니 나의 30대 초반은 너무 좋은 시기였던것 같다. 좀더 여유로왔고, 모서리가 다듬어졌고, 일도 열심히 했지만 놀기도 열심히 헀었다. 어느정도 기름칠이 되고 손에 익은 연장, 무릎이 어느정도 나왔지만 내 몸에 더 편하게 맞는 청바지같은 느낌. 만일 지금 선택권이 주어진다면 20대보다는 30대 초반으로 돌아가는걸 선택할 것이다.&lt;br /&gt;&lt;br /&gt;해마다 마찬가지지만, 올해도 이맘때가 되니 20대의 끝자락을 부여잡고 30대를 두려워하는 페친들의 포스팅이 이어진다. 걱정 마시라. 더 여유롭고 더 재미있는 30대가 펼쳐질 테니. 아니 더 나아가, 우리 모두에게 어쩌면 인생의 가장 좋은 시기는, 나중에 돌이켜봤을때 추억하게 될 바로 지금인 거다.&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/88470592918438677/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/12/20-20-million.html#comment-form' title='2개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/88470592918438677'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/88470592918438677'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/12/20-20-million.html' title='20세 또는 20 million? '/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>2</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-8226356421526946532</id>
+        <published>2013-12-22T18:10:00.000-08:00</published>
+        <updated>2013-12-22T18:10:06.589-08:00</updated>
+        <title type='text'>책읽기 캠페인</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;요새 책을 읽는다. 시간은 도무지 없지만, gym에서 자전거 타면서 읽기도 하고, 가끔 Caltrain 기차탈때 읽기도 하고, 저녁에 잠깐씩 읽기도 한다. 물론 시간이 없다보니 진도가 빨리 나가진 않고. 그러다 보니 모든 내용을 표지부터 표지까지 다 읽으려고 하지도 않는다. &lt;br /&gt;&lt;br /&gt;페이스북과 데일리 뉴스에 눈을 맞추고 있는건 마치 빠르게 움직이는 버스 안에서 쌍안경을 끼고 바로 앞에 지나가는 풍경을 보는것처럼 느껴진다. 세상이 어찌 이리도 빨리 변하는지. 그래서 책을 보려고 노력한다. 또한 사람들을 만나다보니, 모든 정보를 두루 꿰고 있는데도 깊이가 얕은 사람도 있고, 반면 드러내지 않아도 깊이있는 사람의 경우 책 많이 읽고 경험 많이한 사람들인 경우가 많더라.&lt;br /&gt;&lt;br /&gt;그렇다고 뭐 거창한 책을 본다기보다 요새는 주로 기업, 기업가들을 다룬 책들을 본다. 트위터, 아마존, 구글, 애플, 페이스북의 처음 모습을 보면서, 그들도 필연적으로 마주쳤을 어려움들을 어떻게 극복했는지, 그 과정에서 기업가로써, 리더로써 어떤 인성과 자세를 유지했는지, 이런걸 주로 배우려고 노력한다.&lt;br /&gt;&lt;br /&gt;책은 주로 Kindle로 보고, 일부러 눈에 부담없는 e-ink 버전의 Kindle 엔트리 버전으로 본다. 그리고 온라인에서도 볼만한데 길이가 긴 글이 있으면 &lt;a href=&quot;http://www.klip.me/sendtokindle/&quot; target=&quot;_blank&quot;&gt;Klip.me의 Send to Kindle 크롬 익스텐션&lt;/a&gt;을 활용해서 킨들로 보내놓고 나중에 읽는다.&lt;br /&gt;&lt;br /&gt;2014년은 책과 함께!&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/8226356421526946532/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/12/blog-post_22.html#comment-form' title='1개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/8226356421526946532'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/8226356421526946532'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/12/blog-post_22.html' title='책읽기 캠페인'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>1</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-3079421284864064413</id>
+        <published>2013-12-20T18:06:00.002-08:00</published>
+        <updated>2013-12-20T18:06:39.598-08:00</updated>
+        <title type='text'>우리네 책들</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;a href=&quot;http://mrpyo.com/2013/12/21/%ED%95%98%EB%8A%98%EC%97%90%EC%84%9C-%EB%B3%B4%EB%8B%A4/&quot; target=&quot;_blank&quot;&gt;멋진 글&lt;/a&gt;을 하나 보니, 아울러 떠오르는 생각.&lt;br /&gt;&lt;br /&gt;(나는 크리스천이지만 이 글에서는 기독교적 내용은 배제하고 철학적인 내용만 포함..)&lt;br /&gt;&lt;br /&gt;우리가 만일 아무것도 없는 암흑에서 와서, 아무것도 없는 암흑으로 돌아간다면, 생각해보면 인생만큼 허무한게 또 있는가? 니체의 허무주의도 이 문제에 대한 누구보다 깊은 사유에서 나온것 아닌가? 만일 우주 빅뱅의 대척점이 모든것, 심지어 정보마저도 소멸하는 블랙홀이라면, 인생에 의미를 굳이 부여하려는 것 자체가 의미없는 행위일수 있지 않는가? 굳이 그렇게 매크로한 스케일이 아니더라도, 수천년전 국경을 지키기 위한 이유만으로 목숨을 걸고 전쟁터로 나갔던 군사들이 있었지만, 만일 그 국경이 지금 와서는 흔적조차 남아있지 않다면 그들의 죽음은 어떤 가치를 지니는 것인가?&lt;br /&gt;&lt;br /&gt;얼마전 누군가가 했던 말이 떠오른다. 인생을 책이라고 생각해 보라고. 책에는 시작 페이지와 마지막 페이지가 있다. 책에게는, 그게 다다. “책의 입장”에서 보면 첫표지와 끝표시 바깥에 어떤 세상이 있는지, 도무지 알지 못한다. 하지만 책은 굳이 그것을 알려고 하지 않는다. 책이 집중하는건 책 안에서 펼쳐지는 자신의 스토리일 뿐이다.&lt;br /&gt;&lt;br /&gt;어떤이의 인생이 길고 어떤이의 인생은 짧듯, 책도 그 길이가 천차만별이다. 어떤 책은 단 몇장에 불과하지만 그 어떤 책보다 아름다운 스토리를 담고 있다. 어떤 책은 처음에는 완만하고 지리하게 스토리가 이어지지만, 마지막으로 갈수록 엄청난 불꽃이 점화되는 것처럼 스토리가 전개된다. 그리고 그런 스토리의 주인공은 심지어 책이 마지막 페이지로 치닫는 것조차 두려워하지 않는다.&lt;br /&gt;&lt;br /&gt;우리네 “책들”이 신경써야 하는것은 오직 첫표지와 마지막 표지 사이에서 펼쳐지는 우리의 스토리일 뿐이다. 인생은 어차피 놓고갈 것들 하나라도 움켜지는 소유가 아니라, 경험과 스토리다. 설령 책이 없어지더라도, 책 안에 있었던 스토리는 남을수 있는 거니까.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/3079421284864064413/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/12/blog-post_20.html#comment-form' title='1개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/3079421284864064413'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/3079421284864064413'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/12/blog-post_20.html' title='우리네 책들'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>1</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-3904530730771564804</id>
+        <published>2013-12-13T17:13:00.001-08:00</published>
+        <updated>2013-12-13T17:13:05.984-08:00</updated>
+        <title type='text'>실리콘밸리의 코리안 해적들</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;인도계인 Satya Nadella라는 사람이 마이크로소프트의 유력한 CEO 후보중 하나로써 꼽히는 걸 보고 드는 생각 하나. 만일 한국인들이 실리콘밸리나 미국 주류사회에서 어느정도 레벨 이상을 올라가지 못하는 이유가 단순히 피부색 하나뿐이라면, 인도인들 중에서 -- 그것도 2세가 아닌 이민 1세대들이 -- 미국 주류사회에서 CEO를 차지하거나 주요기업의 CEO 후보로 종종 거론되는 경우를 보는것을 어떻게 설명할 수 있을까 라는것. 단순히 피부 단위면적당 색소의 밀도만 놓고본다면 그들이 우리보다도 높을텐데. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;지나친 일반화의 위험이 있지만, 전반적으로 실리콘밸리 IT 대기업들에서 갖고있는 한국인들에 대한 이미지는 “실력도 좋은데다가 큰 불평없이 묵묵히 열심히 일해주는 착한 사람들”로 형성되는 경우가 많다. 반면 인도인들은 자기손해는 절대로 안보고 무슨 일만 있으면 눈 동그랗게 뜨고 달려드는 사람들로 인지되어서 인도인이라면 고개를 절레절레 흔드는 경우도 많음. 하지만 한가지 부정할 수 없는 사실은 주요기업의 CEO를 차지하고 있거나 후보로 거론되는 사례중에는 인도인의 숫자가 한국인보다 훨씬 많다는 것. (단순 인구차이? 미국에 나와있는 인구로 비교하면 한국인 숫자도 만만치 않음) “실력도 좋은데다 열심히 일해주는 착한” 한국인 입장에서는 가만 생각해보면 억울한 일. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;실리콘밸리에서 IT 업종에서 일하는 한국인들은 대부분 석박사 과정을 미국에서 마치고 현지에서 취업을 한 경우가 보통인데, 이런 경우 대부분 회사에서 비자 스폰서나 영주권 스폰서를 해주기 때문에 몇년간 나오기가 어렵고, 나올때쯤 되면 가족도 생기고 여러가지로 몸이 무거워져 있는 상태기 때문에 어느날 갑자기 뛰쳐나오기가 어렵게 되는것. 또한 주변의 많은 경우 실리콘밸리에서 경험을 쌓아가면서 아이들을 어느정도 키워놓고 있다보면 한국의 대기업이나 학교에서 러브콜을 받아서 좋은 조건에 중요한 위치로 컴백하는 경우들도 종종 보이다보니, “지금 회사에서의 안정적인 커리어 빌딩”이 중요한 요소로 다가오는게 사실.  &lt;br /&gt;&lt;br /&gt;      &lt;br /&gt;&lt;br /&gt;안정적인 커리어 빌딩이 나쁜건 전혀 아니고 나도 때로는 창업의 길이 아니라 좀더 안정적인 길을 유지했더라면.. 하는 생각도 안하는 것 아니지만, 그냥 개인적 바램은 실리콘밸리에서 창업하는 한국분들도 더 많이 늘어나서, 한국인 하면 “해군”의 이미지 뿐만 아니라 “해적”의 이미지도 조금은 더 많아졌으면 하는 아주 단순한 개인적 바램이 있음. (스타트업쪽에서 흔히 말하는 “해적과 해군” 이야기 - ”I’d rather become a pirate than joining Navy”) 다른 이유는 없고, 그래야 나도 한국사람으로써 그 이미지에 좀 묻어갈 수 있을까 해서.^^&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/3904530730771564804/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/12/blog-post_13.html#comment-form' title='2개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/3904530730771564804'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/3904530730771564804'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/12/blog-post_13.html' title='실리콘밸리의 코리안 해적들'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>2</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-3114870140886767964</id>
+        <published>2013-12-11T13:50:00.001-08:00</published>
+        <updated>2013-12-11T13:50:46.988-08:00</updated>
+        <title type='text'>Unicorn 기업과 MBA 창업가</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;a href=&quot;http://bostonvcblog.typepad.com/vc/2013/11/unicorns-and-mbas.html&quot; target=&quot;_blank&quot;&gt;출처: Seeing both sides&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;얼마전에 화제가 된 글중의 하나가 VC 투자를 받은 인터넷 회사들 중 시가총액 1조 이상의 기업들 (소위 &quot;Unicorn company&quot;) 의 수가 아주 적다는 내용이었는데, 발표 이후 어떤 글에서 이런 Unicorn company들과 MBA 졸업생과의 관계를 조사.&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Unicorn 기업중 &lt;b&gt;33% (3분의 1) 은 초기 파운더중 적어도 한명이 MBA 출신&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Unicorn 기업중&lt;b&gt; 82% 는 전직 또는 현직 경영진 멤버중 적어도 한명이 MBA 출신&amp;nbsp;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;MBA출신중에서는 하버드, 스탠포드, 와튼 출신이 거의 절반 차지 &amp;nbsp;&lt;/li&gt;&lt;/ul&gt;MBA 출신들이 실리콘밸리에서 창업쪽에 기웃거릴 때가 바로 버블의 시작이라는 농담섞인 이야기도 있는데, 비단 그렇지만도 않은듯.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-6C3LQuHDxYg/UqdWHstPhjI/AAAAAAAAB40/K0X5p1wWzzs/s1600/1.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;400&quot; src=&quot;http://3.bp.blogspot.com/-6C3LQuHDxYg/UqdWHstPhjI/AAAAAAAAB40/K0X5p1wWzzs/s400/1.png&quot; width=&quot;261&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-YIzRZ3Mm1-A/UqdWHTKx3VI/AAAAAAAAB4w/SV3pkLzRpRI/s1600/2.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;400&quot; src=&quot;http://1.bp.blogspot.com/-YIzRZ3Mm1-A/UqdWHTKx3VI/AAAAAAAAB4w/SV3pkLzRpRI/s400/2.png&quot; width=&quot;345&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/3114870140886767964/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/12/mba.html#comment-form' title='2개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/3114870140886767964'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/3114870140886767964'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/12/mba.html' title='Unicorn 기업과 MBA 창업가'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://3.bp.blogspot.com/-6C3LQuHDxYg/UqdWHstPhjI/AAAAAAAAB40/K0X5p1wWzzs/s72-c/1.png" height="72" width="72"/>
+        <thr:total>2</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-1816873342717456942</id>
+        <published>2013-12-10T22:14:00.000-08:00</published>
+        <updated>2013-12-10T22:14:03.458-08:00</updated>
+        <title type='text'>직업적 인간애</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;요새 모 회사와 같이 프로젝트를 하나 추진하고 있는데, 담당하는 팀에서 -- 물론 과정상의 어려움은 당연히 있지만 -- 우리 회사 사정이 바쁜걸 이해해 주고 최대한 맞추어 주려고 노력을 해주고 계신다. 가만 생각해보면 반드시, 굳이, 꼭 그래야만 하는건 아닐수도 있는데도.&lt;br /&gt;&lt;br /&gt;참 신기한게, 사람과 사람이 서로 일을 하다보면 상대방이 그냥 내앞에서 말만 번지르르하게 하고 돌아서서는 실제로는 전혀 딴판으로 “그건 니사정이고..” 라고 생각하는지, 아니면 진짜 인간적으로 본인도 우리의 사정을 -- 다는 아닐지언정 어느정도까지는 -- 이해하려고 노력하고 최대한 자기일처럼 뛰어주려고 하는 노력을 조금이라도 기울여 주는건지, 그런 진심의 유무를 어떤 종류의 물리적 접촉 없이도 상당히 정확한 오차범위 내에서 파악할 수 있게 된다. 인간이 갖고있는 커뮤니케이션 과정에서의 비 언어적 시그널 감지능력은 정말 뛰어난 나머지, 때로는 아무런 언어적 시그널이 없든지, 혹은 심지어 언어적 시그널은 실제의 데이터와 반대되는 잡음을 열심히 내더라도, 그걸 관통해서 사람의 본심을 꿰뚫어볼수 있는 능력이 대부분의 사람들에게 꽤 높은 수준으로 관찰되곤 한다.&lt;br /&gt;&lt;br /&gt;인간애라는게 아주 거창한거 아닌것 같고, 특히나 직업적인 부분에서의 인간애라는건 설령 직접적인 이해관계가 없더라도 나랑 같이 일하는 다른 사람의 사정을 조금더 이해해주고 조금이라도 그사람 입장에서 일해주려고 하는 태도, 그러한 작은 태도의 차이인것 같다. 대부분의 경우 그런 행동들의 단기적 소득은 없거나 매우 적을수 있지만 그러한 작은 “직업적 인간애”가 쌓여갈 때의 장기적 소득(long term dividend)은, 사람들이 생각하는 것보다 의외로 굉장히 크다. &amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/1816873342717456942/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/12/blog-post.html#comment-form' title='0개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/1816873342717456942'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/1816873342717456942'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/12/blog-post.html' title='직업적 인간애'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-566392927974727854</id>
+        <published>2013-12-10T09:52:00.005-08:00</published>
+        <updated>2013-12-10T09:56:35.615-08:00</updated>
+        <title type='text'>Spotify의 함정</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;북미시장에서 음악 서비스의 판도를 바꿔버린 스트리밍 서비스 &lt;a href=&quot;http://pando.com/2013/12/04/what-spotifys-royalty-numbers-dont-tell-us/&quot; target=&quot;_blank&quot;&gt;Spotify에 대한 분석&lt;/a&gt;. 어떤 밴드의 경우 자체적으로 계산해보니 대략 6,000번 정도 스트리밍이 되면 1불정도 수익이 발생하는 것으로 나타났다고. 그럼 100불의 수익이 발생하려면 한곡당 60만번이라는 엄청난 숫자의 재생이 발생해야 한다는 이야기.&lt;br /&gt;&lt;br /&gt;Spotify가 자체적으로 발표한 것 역시 그다지 큰 금액이 아니고 한번 스트리밍에 $0.006-$0.0084정도가 record label (음반회사)로 가는 것으로 발표하고 있는데, 문제는 여기서 끝나는게 아니라 음반회사도 자기들의 cut을 떼어야 하기 때문에 실제로 극히 소수를 제외하고는 Spotify를 통해 의미있는 돈을 벌수 있는 컨텐츠 저작자는 사실상 전무하다고 봐도 과언이 아니라는 얘기.&lt;br /&gt;&lt;br /&gt;반면 소비자에게는 Spotify가 한달에 몇불 수준의 적은 금액만 내고 수백만곡에 달하는 음원을 모두 내것처럼 액세스 할수 있기 때문에 더할나위없이 좋은 서비스인 셈. Spotify는 이러한 consumer benefit을 토대로 회원을 끌어들이고, 거대한 회원 베이스를 레버리지해서 컨텐츠 저작자들을 울며 겨자먹기로 들어올 수밖에 없도록 해놓은 서비스라고 보면 되는것.&lt;br /&gt;&lt;br /&gt;그런데 여기서 한가지 드는 의문은.. 이게 과연 장기적으로 유지 가능한 모델일까 라는점. 인터넷의 힘을 레버리지해서 재빨리 컨수머 네트워크를 형성하고, 그러한 &quot;채널 장악&quot;을 무기로 컨텐츠 저작자들이 참여하지 않으면 안되게끔 구조를 만드는 것까지는 좋은데, 위의 예에서 보다시피 컨텐츠 저작자에게는 말도 안되게 돈이 안되는 네트워크인 반면, 컨텐츠는 양질의 컨텐츠일수록 필연적으로 저작 비용이 드는거라서, 여기서 기본적으로 비즈니스 모델상의 미스매치가 발생하는 셈.&lt;br /&gt;&lt;br /&gt;때문에 참여자들이 해당 플랫폼에서 열심히 돈벌 생각을 하기보다는 해당 채널은 단순 홍보의 채널로 사용하고 실제 돈을 버는 것은 별도의 채널에서 (소위 off-network) 벌려고 고민하게 되는 것이고 (동일한 현상이 유튜브의 MCN (multi channel network) 에서도 보여지고 있음), 이러한 현상이 계속되면 플랫폼 사업자들에게도 장기적으로 리스크 요소로 작용하게 되는것. 실제로 Spotify나 Pandora등 스트리밍 서비스들 역시 상당히 큰 적자를 기록중. 또한 네트워크나 채널 사업자로 위치를 공고히 한 업체들도 수익 창출을 위해서 다시금 &quot;content is the king&quot;을 기억하면서 오리지널 컨텐츠의 직접 생산쪽으로 다가가려고 노력하게 되는 경우도 많은듯 (넷플릭스 오리지널 시리즈처럼). 아무튼 인터넷 시대의 컨텐츠 사업 비즈니스 모델은 재미있는 주제인 듯하다.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/566392927974727854/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/12/spotify.html#comment-form' title='0개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/566392927974727854'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/566392927974727854'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/12/spotify.html' title='Spotify의 함정'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-511492704587905787</id>
+        <published>2013-11-21T19:32:00.002-08:00</published>
+        <updated>2013-11-21T19:32:14.773-08:00</updated>
+        <title type='text'>서비스 전략중 하나: VC 자녀들 노리기</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;스냅챗에 일찍 투자했던 벤처캐피털중 하나인 Lightspeed 의 이야기. 파트너중 한명인 Barry Eggers의 고등학생 딸이, 자기 주변 친구들이 스마트폰에서 맨날 쓰는 앱 세가지가 앵그리버드, 인스타그램, 그리고 스냅챗이었다고 했고, 그러자 “이친구들이 도대체 누군지 한번 찾아봐야겠다”는 생각으로 연락을 하게 되었다고. &lt;br /&gt;&lt;br /&gt;“This guy named Jeremy Liew, who works at Lightspeed Ventures, one of his partners, Barry Eggers had a daughter who was using Snapchat. She said her three favorite apps of the world that everyone was using at her high school were Angry Birds, Instagram and Snapchat. And (Liew and Eggers) had never heard of Snapchat, so they were like we&#39;ve got to find those guys.” -- &amp;nbsp;&lt;a href=&quot;http://www.businessinsider.com/this-vcs-daughter-found-snapchat-2013-11&quot; target=&quot;_blank&quot;&gt;Business Insider&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;비슷한 이야기가 트위터에 대한 책 “Hatching Twitter”에도 나온다. 유명한 CEO 멘토인 빌 캠벨이 처음에는 트위터에 관심이 없었다가, 자기 아들과 낚시 여행을 갔는데 아들이 다른건 안하고 트위터만 붙잡고 있는걸 보고 비로소 트위터라는 회사에 관심을 갖게 되었다고. Fred Wilson이 텀블러에 투자한 것도 자기 자녀들이 사용하는 것을 보고 관심을 가졌던 것.&lt;br /&gt;&lt;br /&gt;실리콘밸리에서 막대한 밸류에 투자받을 수 있는 방법중 하나: VC의 자녀들이 (특히 휴대폰에서) 열광하면서 사용할 수 있는 앱을 만드는 것.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/511492704587905787/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/11/vc.html#comment-form' title='0개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/511492704587905787'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/511492704587905787'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/11/vc.html' title='서비스 전략중 하나: VC 자녀들 노리기'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-256402758557256479</id>
+        <published>2013-11-19T15:00:00.000-08:00</published>
+        <updated>2013-11-19T15:00:08.626-08:00</updated>
+        <title type='text'>응답하라, 기획자들</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;요새 “응답하라” 시리즈가 인기라던데 (아직까지 제대로 못본 1인)... 얼마전, 어떤 지인분과 이야기 나누던 도중 우리도 “그때 그시절”을 떠올리던 기억이 난다. 그건 바로 90년대 말과 2000년대 초반, 소위 “닷컴 시절”을 거치면서 새로운 직군으로 떠오르던 우리들 “기획자들”에 대한 기억.&lt;br /&gt;&lt;br /&gt;그당시 기획자라는 직군은 딱히 정의하기 힘들었던것 같다. 대략 IT 기업에 다니고 있는데 코딩이나 디자인같은 특별한 재주는 없고 그렇다고 밖에 나가서 술마시면서 영업해서 돈 벌어오지도 않는 애매한 사람들? 정의 자체가 애매했던지라, 개중에는 뭣도 모르고 주워들은 이야기를 짜깁기해서 말하던 어중이 떠중이들도 있었던게 사실. (아니면 아버지가 사장님 친구라서 IT 기업에 갑자기 들어온 일부 자제분들이라든지)&lt;br /&gt;&lt;br /&gt;하지만, 또한 한편으로는 이제 새로 열리는 신세계를 감지하고, 마치 콜럼버스가 미지의 세계로 배를 띄우듯 자신의 인생을 새 분야로 과감히 던졌던 이들도 있었다. 우리가 추억하는 건 그랬던 치열한 고민과 공부와 토론의 시간들이다.&lt;br /&gt;&lt;br /&gt;우린 데이빗 앤 대니의 블로그와 이메이징 잡지를 열심히 구독했고, 바로 옆자리에 앉아있는 웹디자이너와 굳이 ICQ (얼마 지나지 않아서 네이트온으로 갈아탔던..) 채팅으로 하루종일 얘기하면서 서비스를 만들어 갔으며, 멋진 파워포인트 템플릿 디자인 몇개를 하드디스크의 “참고자료” 폴더에 소장하고 있었다. “비즈니스 모델 연구회” 등의 프리챌 동아리에서는 와이어드 잡지 기사 한꼭지를 숙제로 읽고 오라고 선배들이 그랬었는데, 사실 이론적 레벨에서의 추상적 토론에 불과했지만 그 진지함과 열정만큼은 하버드 비즈니스 스쿨의 케이스 스터디에 버금갔고, 그렇게 밤늦게까지 토론한 사람들만이 느낄수 있는 동료의식이 때로는 우정의 형태로, 때로는 이성간의 정분(?)의 형태로 싹트곤 했었다.&lt;br /&gt;&lt;br /&gt;곧이어 코스닥 열풍이 꺼지고 닷컴 버블이 가라앉으면서 개중에는 먹고 살길을 찾아서 다른 분야로 전직한 이들도 있었지만, 또 한편으로 많은 분들은 업계에 남아서 지금까지 쟁쟁하게 활동하고 있기도 하다. 사실 닷컴 붐이래봤자 고작 십수년전 전의 이야기니까.&lt;br /&gt;&lt;br /&gt;아무튼. 건축학 개론과 “응답하라..”의 시기에, 그때 그 치열했던 시절을 잠시 떠올려 본다. 나무의 나이테가 나무에게 힘든 시기에 더 진해지듯이, 우리네 인생도 여물게 산 기억들이 나중에 더 진한 추억으로 남는것 같다.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/256402758557256479/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/11/blog-post.html#comment-form' title='6개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/256402758557256479'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/256402758557256479'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/11/blog-post.html' title='응답하라, 기획자들'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>6</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-1214588249371476936</id>
+        <published>2013-11-18T10:04:00.000-08:00</published>
+        <updated>2013-11-18T10:04:09.391-08:00</updated>
+        <title type='text'>[자료] Mobile is eating the world</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;예전에도 봤던 자료인데 최근 데이터로 업데이트됨. 모바일이 대세라는 것을 모르는 사람들은 없겠지만, 혹시라도 구체적인 데이터가 필요할 때 참고할 만한 자료.&lt;br /&gt;&lt;br /&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;355&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://www.slideshare.net/slideshow/embed_code/27942699&quot; style=&quot;border-width: 1px 1px 0; border: 1px solid #CCC; margin-bottom: 5px;&quot; width=&quot;425&quot;&gt; &lt;/iframe&gt; &lt;br /&gt;&lt;div style=&quot;margin-bottom: 5px;&quot;&gt;&lt;strong&gt; &lt;a href=&quot;https://www.slideshare.net/bge20/2013-11-mobile-eating-the-world&quot; target=&quot;_blank&quot; title=&quot;2013 11 mobile eating the world&quot;&gt;2013 11 mobile eating the world&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/bge20&quot; target=&quot;_blank&quot;&gt;Benedict Evans&lt;/a&gt;&lt;/strong&gt; &lt;br /&gt;&lt;br /&gt;덧) 동일 블로그에 나온 &lt;a href=&quot;http://ben-evans.com/benedictevans/2013/11/10/instagram-and-youtube&quot; target=&quot;_blank&quot;&gt;이 글&lt;/a&gt;도 추천. 모바일 유저들은 &quot;사진 공유&quot; 등의 활동에 주목하지. 어떤 앱을 쓰느냐에 대한 종속도/로열티가 데스크톱 웹에 비해서 현저히 떨어진다는 것. (어쩌면 복수의 메신저 앱 사용에 대한 거부감이 생각보다 떨어지는 것도 이렇게 설명 가능할 수도.)&amp;nbsp;&lt;/div&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/1214588249371476936/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/11/mobile-is-eating-world.html#comment-form' title='0개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/1214588249371476936'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/1214588249371476936'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/11/mobile-is-eating-world.html' title='[자료] Mobile is eating the world'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-8271933786599588249</id>
+        <published>2013-10-31T18:38:00.001-07:00</published>
+        <updated>2013-10-31T18:38:29.415-07:00</updated>
+        <title type='text'>스타워즈 시리즈를 제대로 보는 방법</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;요새 우리 아들이 스타워즈 시리즈에 관심을 갖고 있어서 DVD 시리즈 구매 고려중인데, 마침 &lt;a href=&quot;http://www.nomachetejuggling.com/2011/11/11/the-star-wars-saga-suggested-viewing-order/#toc-introducing-machete-order&quot; target=&quot;_blank&quot;&gt;재미있는 글&lt;/a&gt; 발견. 일명 &quot;스타워즈 시리즈를 제대로 보는 방법&quot;이라고..&amp;nbsp;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-lFB-olJmgkE/UnMCL9BY_GI/AAAAAAAAB4I/VRp5S6p2gq0/s1600/machete_order-580x142.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;96&quot; src=&quot;http://1.bp.blogspot.com/-lFB-olJmgkE/UnMCL9BY_GI/AAAAAAAAB4I/VRp5S6p2gq0/s400/machete_order-580x142.jpg&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;div&gt;글에서 이야기 하는 제대로 보는 순서라 함은: &lt;b&gt;Episode 4 =&amp;gt; Episode 5 =&amp;gt; Episode 2 =&amp;gt; Episode 3 =&amp;gt; Episode 6&lt;/b&gt;의 순서.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;(혹시나 모르는 분들이 있을까봐, 스타워즈 시리즈는 조지 루카스에 의해 총 9부작으로 기획되었고, 에피소드 4/5/6이 먼저 나왔었고 (즉 70년대말 극장에서 개봉되었던 버전), 에피소드 1/2/3이 2000년대에, 그리고 에피소드 7/8/9가 추후 나올 예정이다. (최근 에피소드 7이 2015년 또는 2016년에 나올 예정이라는 &lt;a href=&quot;http://collider.com/star-wars-7-delay-2016/&quot; target=&quot;_blank&quot;&gt;기사가&lt;/a&gt; 있었음). 또한 잘 알려진대로 에피소드 7부터의 스타워즈 시리즈는 디즈니 프랜차이즈의 시리즈가 된다.)&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;이렇게 에피소드 4/5/6과 1/2/3의 제작 순서가 뒤바뀐지라 위에서 나온 순서대로 스타워즈를 보게 되면 옛날 버전과 새로운 버전을 왔다갔다 하면서 보는 셈인데.. 그럼에도 불구하고 위의 순서대로 보면 좋은 이유를 다음과 같이 설명.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;일단 에피소드 1 (1999년작) 은 안보는게 나은 작품이라는게 글쓴이의 강력한 주장. 그러고보니 1999년에 잔뜩 긴장하고 극장에 갔었는데 눈물 흘리면서 보진 않았던 기억.&amp;nbsp;&lt;/li&gt;&lt;li&gt;에피소드 4, 5 편을 통해 선한 캐릭터와 악한 캐릭터를 소개 - 그리고 악당이 곧 그 아버지라는 사실을 보여줌&amp;nbsp;&lt;/li&gt;&lt;li&gt;에피소드 2, 3 통해서 어떻게 뛰어난 제다이가 악당이 되었는지를 보여줌&amp;nbsp;&lt;/li&gt;&lt;li&gt;에피소드 6에서 선과 악의 결투를 통한 대단원&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;왜 이런 순서대로 보는게 좋은지에 대해서 더 많은 이유는 그야말로 소설책 한권 분량의 글이 &lt;a href=&quot;http://www.nomachetejuggling.com/2011/11/11/the-star-wars-saga-suggested-viewing-order/#toc-introducing-machete-order&quot; target=&quot;_blank&quot;&gt;여기에&lt;/a&gt; 적혀 있으니 참고하시길.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/8271933786599588249/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post_31.html#comment-form' title='1개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/8271933786599588249'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/8271933786599588249'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post_31.html' title='스타워즈 시리즈를 제대로 보는 방법'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://1.bp.blogspot.com/-lFB-olJmgkE/UnMCL9BY_GI/AAAAAAAAB4I/VRp5S6p2gq0/s72-c/machete_order-580x142.jpg" height="72" width="72"/>
+        <thr:total>1</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-843271259958338229</id>
+        <published>2013-10-18T12:24:00.001-07:00</published>
+        <updated>2013-10-18T12:24:59.209-07:00</updated>
+        <title type='text'>웹툰 플랫폼의 진화 (KT 경제경영연구소)</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;KT 경제경영연구소에서 최근 발표한 웹툰 관련 자료. 우리나라에서 웹툰은 음악/영화/게임등과 비교되는 하나의 미디어 장르로 확실히 자리를 잡았고, 웹툰앱의 이용시간이 유튜브나 멜론보다도 높다고 함. 아직까지 글로벌 시장에는 이런 문화가 없고 그걸 만들어 보자는게 타파스틱의 목표. 미디어 산업쪽에 관심이 있으신 분들은 참고하실 만한 자료. (힌트: 타파스틱도 자료에 깨알같이 언급^^)&lt;br /&gt;&lt;br /&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;511&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;http://www.slideshare.net/slideshow/embed_code/27343196&quot; style=&quot;border-width: 1px 1px 0; border: 1px solid #CCC; margin-bottom: 5px;&quot; width=&quot;479&quot;&gt; &lt;/iframe&gt; &lt;br /&gt;&lt;div style=&quot;margin-bottom: 5px;&quot;&gt;&lt;strong&gt; &lt;a href=&quot;https://www.slideshare.net/chang1/ss-27343196&quot; target=&quot;_blank&quot; title=&quot;웹툰 플랫폼의 진화와 한국 웹툰의 미래&quot;&gt;웹툰 플랫폼의 진화와 한국 웹툰의 미래&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/chang1&quot; target=&quot;_blank&quot;&gt;Chang Kim&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/843271259958338229/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/10/kt.html#comment-form' title='1개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/843271259958338229'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/843271259958338229'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/10/kt.html' title='웹툰 플랫폼의 진화 (KT 경제경영연구소)'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>1</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-9151531992346044389</id>
+        <published>2013-10-17T17:28:00.002-07:00</published>
+        <updated>2013-10-17T17:28:19.158-07:00</updated>
+        <title type='text'>돈으로 행복을 사는 방법</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div&gt;&quot;돈이 행복을 살수 있는가?&quot; 라는 질문은 비단 드라마의 주제일뿐 아니라, 엄연히 사회과학 분야의 학자들이 논문 주제로 삼는 연구의 영역이기도 한 듯하다.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;최근 연구 결과에 따르면...&amp;nbsp;&lt;b&gt;돈으로 행복을 살 수 있다는 것&lt;/b&gt;. 근데 그 조건은 -- 자신이 아니라 남들에게 돈을 쓸 때라고 한다.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;blockquote class=&quot;tr_bq&quot;&gt;&quot;연구 결과에 따르면 사람들은 자기 자신이 아니라 다른 사람에게 돈을 사용할 때 더 큰 행복을 느끼게 되고, 이는 부국이든 빈국이든, 그리고 개인의 소득 수준에 상관없이, 공통적으로 관찰되는 현상이었다&quot; (Research demonstrating that people derive more satisfaction spending money on others than they do spending it on themselves spans poor and rich countries alike, as well as income levels.)&lt;/blockquote&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;-- &lt;a href=&quot;http://www.gsb.stanford.edu/news/headlines/research-can-money-buy-happiness&quot; target=&quot;_blank&quot;&gt;Research: Can Money Buy Happiness?&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;그래도 사람이란 존재가 100% 완벽한 존재가 아니기에, 개개인의 욕심이 없을순 없지 않겠나. 그래서 아이디어 하나. 돈을 많이 벌면, 우선 자기 자신을 위해서 뭔가 좋은걸 산 다음에, 잠깐 쓰다가 그걸 다른 사람에게 선물로 주는거다.^^ 결국 자기가 영원히 소유하는 건 아니지만 적어도 초기 감가상각의 델타값 만큼은 자기 자신에게 허용을 하고, 잔존가치의 상대적 밸류가 나보다는 다른 사람에게 더 클수 있다는 점을 이용하는 셈. 이렇게 하면 지름신의 행복 더하기 다른 사람에게 선물하는 행복, 이렇게 두번의 행복을 느낄수 있지 않을까? (너무 잔머리..?)&amp;nbsp;&lt;/div&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/9151531992346044389/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post_17.html#comment-form' title='0개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/9151531992346044389'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/9151531992346044389'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post_17.html' title='돈으로 행복을 사는 방법'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-5303612537526431281</id>
+        <published>2013-10-16T00:53:00.001-07:00</published>
+        <updated>2013-10-16T00:53:09.088-07:00</updated>
+        <title type='text'>스타트업 = 불확실성의 제거 과정 </title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;흔히 운으로 성공했다는 말을 하는데, 그건 종종 겸손의 말이다.&lt;br /&gt;&lt;br /&gt;만일 어떤 사람이 진짜 100% 운만으로 성공했다면 그건 결국 결과를 전혀 예측하지 못한 상황에서 정말 의외의 좋은 결과가 나왔을 때일 것. (마치 눈 감고 해프라인에서 농구공을 던졌는데 골대에 쏙 빨려들어갈 때의 상황?)&lt;br /&gt;그럼 반대로 100% 실력으로 성공한다는 얘기는, 이를테면 스타트업에 적용해 보자면, 결과를 스스로 예측하지 못하는 상황 -- 즉 “불확실성” -- 을 최대한 자기 힘으로 줄일수 있었다는 얘기. 몇가지 예를 들면:&lt;br /&gt;&lt;br /&gt;1. 투자&lt;br /&gt;&lt;br /&gt;폴 그레엄이 얘기하는 &quot;피치를 잘하는 방법&quot;은 말을 청산유수로 잘하는게 아니라, 쉽게 말하자면 “하도 이 사업에 대해서 속속들이 많은 것을 알고 있기에 그걸 그냥 서술형으로 (”matter of fact-ly”) 편하게 말할수 있는것”이라고. 투자가들도 똑똑한 사람이기에 속속들이 잘 알지 못하는 사람이 말만 번지르하게 하는걸 보면 곧바로 거짓말탐지기 (bullshit detector) 가 켜지게 마련. 물론 인더스트리를 많이 안다고 해서 모든 불확실성을 피해갈 수 있는건 아니지만 적어도 지뢰를 피해갈 수 있는 확률을 높여주는 거고, 그래서 정말 팀이 인더스트리와 사업에 대해서 잘 알고있고 그래서 편하지만 확실하게 피치를 잘 하는것 역시 &quot;불확실성의 최소화&quot;와 무관하지 않음.&lt;br /&gt;&lt;br /&gt;2. 수익모델&lt;br /&gt;&lt;br /&gt;스타트업이 수익모델을 개발하는 것 역시 마찬가지. 수익모델이 없이 전적으로 투자에만 의존하면 운명을 다른 사람에게 맡기는 것이지만, 수익모델이 있으면 좀더 오랜 기간동안 여러가지 실험을 해볼수 있고, 그렇기에 어느날 갑자기 회사가 접히는 확률 -- “불확실성” -- 을 그만큼 줄이는 것.&lt;br /&gt;&lt;br /&gt;즉 말하자면 스타트업은 불확실성의 최소화인것 같다. 아직 우리회사는 불확실성 투성이지만, 적어도 이 바다에서 초보자로써 헤엄을 치다보면 이렇게 하나둘씩 알아가는 것 같다.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/5303612537526431281/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post_16.html#comment-form' title='0개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/5303612537526431281'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/5303612537526431281'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post_16.html' title='스타트업 = 불확실성의 제거 과정 '/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-8614968983848082796</id>
+        <published>2013-10-14T18:17:00.000-07:00</published>
+        <updated>2013-10-14T18:17:31.403-07:00</updated>
+        <title type='text'>트위터의 흑역사</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;상장을 앞둔 트위터의 경영진과 초기 모양새에 대한 이런저런 이야기들이 재조명되고 있는데, 어떤 회사든 소설책 한두권은 그냥 나오게 마련이지만 이 회사는 자세히 들여다보면 거의 막장 드라마 수준. 물론 정말 내부인이 아닌 이상에야 어디까지가 진실이고 어디까지가 “카더라 통신”인지 모르겠지만, 대략 이런 이야기들이 불거져 나오고 있음.&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;초기에 제품 개발을 주도했던 사람중 한명인 노아 글래스는 땡전 한푼도 못 받고 짤렸음. 최근에 소송을 통해서 몇푼 받기는 한 듯하지만, 대략 “이거 먹고 떨어져라” 수준 아니겠나 짐작. 땀과 눈물을 쏟아부은 프로젝트에서 자기 의지와 상관없이 생이별 당한셈인데, 나중엔 트위터 역사에서 &quot;노아 글래스 지우기&quot; 흔적도 포착되었다고 함.&amp;nbsp;&lt;/li&gt;&lt;li&gt;초기 트위터 CEO 역할을 하던 잭 도시는 원래 모회사 (Odeo) 의 CEO였던 에반 윌리엄스에 의해 쫓겨남 (여기에는 그의 관심사가 워낙 다양해서 집중이 잘 안되던 탓도 있지만.) 사실 트위터라는 프로젝트는 Odeo가 잘 안되니까, 뭐라도 해보자는 취지로 “팀 단위로 재미난거 아무거나 만들어봐” 라고 했던데서 시작된거였고, 에반 윌리엄스는 처음에는 트위터 프로젝트에 그렇게 큰 관심을 보이진 않았다는게 대체적인 의견. 근데 이제 트위터의 싹수가 보이니까 자기가 CEO 자리를 꿰찬 셈.&amp;nbsp;&lt;/li&gt;&lt;li&gt;그런데 그랬던 에반 윌리엄스도 2년정도 뒤에 이사회에 의해서 CEO 자리에서 짤리게 되는데, 이건 먼저 나간 잭 도시의 &lt;a href=&quot;http://allthingsd.com/20131009/bilton-twitter-book-co-founder-jack-dorsey-almost-went-to-facebook-and-more/&quot; target=&quot;_blank&quot;&gt;2년여에 걸친 복수극이었다는 설&lt;/a&gt; (잭 도시도 이걸 &lt;a href=&quot;http://www.businessinsider.com/jack-dorsey-on-ev-williams-2013-10?op=1&quot; target=&quot;_blank&quot;&gt;극구 부인하지는 않는듯&lt;/a&gt;). 이건 뭐 창업자들끼리 서로 등에 비수꽂는게 따로 없음. &amp;nbsp;&lt;/li&gt;&lt;li&gt;지금 CEO인 딕 코스톨로가 COO였던 시절, 이사회에 의해 회사에서 &lt;a href=&quot;http://allthingsd.com/20131012/bilton-book-twitters-dick-costolo-was-fired-and-re-hired-in-2010/&quot; target=&quot;_blank&quot;&gt;한순간에 해고당한 적도&lt;/a&gt; 있다고. 물론 얼마 지나지 않아 직권회복(?) 되어서 결국 CEO로 회사를 다음 단계로 이끄는 역할을 수행. 에릭 슈미트가 했던 “어른으로써 중심잡는 역할”을 트위터에서 잘 수행했던 이 현명한 덕장을 이사회의 성급한 판단 때문에 잃을뻔 했던 순간도 있었음.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;그런데 내가 주목하게 되는건 이런 드라마와 스토리가 아니다. 사실 사람 사는 사회에서 갈등 없을수 없고, 특히 저마다 자기가 세상에서 최고로 똑똑하다고 생각하는 고집센 젊은 사람들을 스타트업이라는 찜통 (”pressure cooker”) 에 넣어 놓았는데 갈등이 없으면 그게 더 이상한걸 지도 모른다. 물론 그렇다고 이런 갈등이 좋다고 말하는 건 아니지만.. &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;내가 주목하는 건 &lt;b&gt;프로덕이 잘 되면 그 모든것을 덮어 버린다는 점&lt;/b&gt;. 에릭 슈미트도 “매출은 세상의 모든 알려진 문제에 대한 해답” (Revenue is the solution for all the known problems of the world) 이라고 했었는데, 그 말이 맞음. 트위터도 맨날 서버가 뻗고 경영진이 이처럼 막장 드라마를 써도, 사람들이 원하고 좋아하고 폭발적으로 성장하는 프로덕이다보니 결국 IPO까지 오게 되는것. 결국 냉정한 얘기지만, 창업 기업의 성공은 창업 멤버들끼리 사이가 좋다고 잘되는게 아니라 오직 폭발적으로 성장하는 프로덕이 있느냐의 유무에 따라 좌우되는 것.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/8614968983848082796/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post_14.html#comment-form' title='4개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/8614968983848082796'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/8614968983848082796'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post_14.html' title='트위터의 흑역사'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>4</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-729246096915489359</id>
+        <published>2013-10-02T23:01:00.004-07:00</published>
+        <updated>2013-10-02T23:01:49.763-07:00</updated>
+        <title type='text'>탐 클랜시 인용</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;유학와서 영어 배우던 시절, 탐 클랜시의 두꺼운 소설책을 페이퍼백으로 가끔 사서 읽곤 했었다. 이왕이면 싼값에 페이지가 많고, 그러면서 페이지 넘길만한 재미도 있는 책을 고르다 보니 자연스레 고르게 되었던 것. 지금도 아마 손때묻은 페이퍼백 소설 한권쯤은 책장 어딘가에 꽂혀 있을지도 모르겠다.&lt;br /&gt;&lt;br /&gt;그런 그가 엊그제 별세했다고 한다. 고인의 명복을 빈다. 그가 말했고, &lt;a href=&quot;http://om.co/2013/10/02/tom-clancy-is-dead-at-66/&quot; target=&quot;_blank&quot;&gt;Om Malik이 그의 블로그에 인용한&lt;/a&gt;, 글 하나를 싣고자 한다.&lt;br /&gt;&lt;br /&gt;&quot;글쓰기를 배우는 것은 골프를 배우는 것과 같다. 그냥 하는거고, 잘 될때까지 계속 하는 것이다. 많은 사람들은 글쓰기에 뭔가 특별한 마법이라도 있는것처럼 생각하지만, 글쓰기는 신적인 영감이 아니라 어려운 노력에 가깝다.&quot; (&quot;You learn to write the same way you learn to play golf. You do it, and keep doing it until you get it right. A lot of people think something mystical happens to you, that maybe the muse kisses you on the ear. But writing isn’t divinely inspired – it’s hard work.&quot;)&lt;br /&gt;&lt;br /&gt;기록적인 판매량을 기록한 소설 작가도 이렇게 말했구나. 비단 글쓰기뿐 아니라 다른 삶의 영역도 마찬가지일 듯. 소설가도, 골프선수도, 심지어 기업가도. 그냥, 잘 될때까지, 하는 거다.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/729246096915489359/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post.html#comment-form' title='0개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/729246096915489359'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/729246096915489359'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/10/blog-post.html' title='탐 클랜시 인용'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-2636915995951049237</id>
+        <published>2013-09-27T14:09:00.003-07:00</published>
+        <updated>2013-09-27T14:09:54.534-07:00</updated>
+        <title type='text'>리베라의 눈물</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;어제 저녁에 있었던 뉴욕 양키스 투수 마리아노 리베라의 마지막 홈경기는 보는 사람으로 하여금 코끝이 찡해지는 큰 감동을 느끼게 해 주었다. 19년동안 한결같이 양키스의 간판 구원투수로 등판하던 그가, 90년대부터의 양키스 전성시대를 같이 이끌던 동료 앤디 페티트와 데릭 지터에게 양키 스타디움에서 마지막으로 공을 넘겨주는 순간, 그의 머릿속에는 과연 어떤 생각들이 주마등처럼 흘러갔을까. 이 감동적인 장면을 전하면서, TV 해설가들은 마치 영화의 롱테이크 장면처럼 오랜시간 아무 말도 하지 않음으로써 감동의 울림을 더해주었다.&lt;br /&gt;&lt;br /&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/_voxdzu2bvY&quot; width=&quot;420&quot;&gt;&lt;/iframe&gt; &lt;br /&gt;누군가 남자의 눈물은 짧지만 굵다고 했던가? 이 장면처럼 그 말을 잘 표현하는 장면을 언뜻 생각하기 어렵다. 그 어떤 드라마나 영화도 20년 세월에 걸친 삶이 주는 감동을 줄수 없다. 20년을 한결같이 같은 무대에 서면서 혼신의 힘을 다하고, 멋지게 무대 아래로 내려오면서 짧지만 굵직한 눈물을 흘릴수 있는 삶. “연탄재 함부로 걷어차지 말라, 너는 한번이라도 누구에겐가 뜨거워 본적이 있느냐”는 싯구처럼, 어차피 두고가야 할것들을 개미처럼 악착같이 모으는 삶보다, 삶이라는 드라마가 주는 순수한 감동과 하이라이트를 단 한번이라도 느낄수 있는 삶이 바로 축복된 삶이 아닌가 한다.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/2636915995951049237/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/09/blog-post_27.html#comment-form' title='7개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/2636915995951049237'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/2636915995951049237'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/09/blog-post_27.html' title='리베라의 눈물'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>7</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-2714870398193454545</id>
+        <published>2013-09-25T19:43:00.002-07:00</published>
+        <updated>2013-09-25T19:43:44.744-07:00</updated>
+        <title type='text'>오픈 코스: 스타트업 엔지니어링</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;코세라 (Coursera) 에는 미국 유명 대학에서 가르치는 수많은 오픈 강좌들이 등록되어 있지만 그중에서도 온라인 스타트업을 생각하는 &quot;비 개발자&quot; 분들에게 추천하고 싶은 코스 하나를 소개하고자 한다. 코스 제목은 &quot;스타트업 엔지니어링&quot;. &lt;a href=&quot;https://class.coursera.org/startup-001/lecture/index&quot; target=&quot;_blank&quot;&gt;링크는 이곳을 참고&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;실제 스탠포드 교수가 실리콘밸리 스타트업에서 최근에 가장 많이 사용되는 각종 기술에 대해서 개괄적으로 소개하고 프로젝트를 진행하는 코스다. 전통적인 컴퓨터 프로그래밍 코스처럼 연산자의 정의, 변수 타입의 정의, 객체지향의 정의, 이런 식으로 깊게 들어가진 않지만, 터미널 프로그램에서 커맨드 라인 입력하기, 아마존 웹서비스 계정 만들기, 웹서버 다루기, 와이어프레임 (wireframe) 통한 mock-up 만들기, html/css/javascript등 웹 프론트엔드 기술, 모바일 앱 등 웹/모바일 스타트업에서 알고 있어야 하고 다루어야 하는 사항들에 대해서 아주 실제적으로 가르치는 코스다. 역시 창업하는 동네에 있는 스탠포드에서 가르치는 코스답게, 상당히 실제적인 것들을 다루고 있는 듯.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/2714870398193454545/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/09/blog-post.html#comment-form' title='0개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/2714870398193454545'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/2714870398193454545'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/09/blog-post.html' title='오픈 코스: 스타트업 엔지니어링'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-5808393116351544673</id>
+        <published>2013-09-22T18:12:00.003-07:00</published>
+        <updated>2013-09-22T18:12:57.783-07:00</updated>
+        <title type='text'>한 3년 안망하고 버틴다는 말의 의미</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;성공한 스타트업 이야기를 들어보면 “한 3년 안망하고 살아남으니까 기회가 오더라”는 말을 자주 듣게 된다. 이 말의 의미를 생각해 보자면... &lt;br /&gt;&lt;br /&gt;1. 초기 기업은 기본적으로 “거의 왠만하면 당연히 망하게 되어 있는” 기업이다. 그래서 일단 살아남아야 한다는 얘기는 리스크 팩터를 줄여야 한다는 얘기. 스타트업에게 가장 큰 리스크 팩터는 돈과 사람이다. 돈 떨어지면 당연히 망하는 거니까, 초기 기업일수록 돈이 떨어지는 리스크를 해소하는데 가장 중점을 두어야 한다. 초기부터 수익을 내면 좋겠지만 초기 기업이 그렇게 한다는 것은 너무나 힘든 일이기에, 돈 떨어지는 리스크를 줄인다는 얘기는 결국 어떻게 해서든 펀딩받는데 성공해야 한다는 얘기. 그리고 몇명밖에 없는 초기 기업의 경우 그 몇명 중에서 한명이 회사를 나가거나 제 역할을 못해내면 회사가 휘청하거나 망할수도 있는 구조이기에, 가장 뛰어난 사람들로 팀을 꾸리는것 역시 리스크를 줄이는 일이다. 스타트업 CEO는 돈과 사람 리스크 팩터를 줄이는데 가장 중점을 두어야 한다.&lt;br /&gt;&lt;br /&gt;2. 근데 또 “살아남으니까 기회가 오더라”의 말을, “살아남기만 하면 무조건 기회가 온다”는 말로 오해하면 안될듯. 몇년간 살아 남아도 기회가 안 올수도.. 당연히 있다. 위의 말의 정확한 번역은 “몇년을 기다렸더니 그토록 원했던 서비스의 폭발적 성장 (growth)이 그제서야 오더라” 라는것. 기본적으로 스타트업은 “성장” 으로 정의된다. 즉 스타트업 == 성장인 건데, 성장이 없는 스타트업은 “용어의 부정” 수준이기에, 단순히 “망할 가능성이 큰”게 아니라 어쩌면 “망해야만 하는” 건지도 모른다. 즉 스타트업은 리스크 팩터를 줄이는게 다가 아니라, 어떻게 해서든 성장을 만들기 위해서 노력을 해야 한다. 수비가 아니라 공격이 필요한 것. 급격한 성장을 하면 펀딩등 리스크 팩터 역시 자연스럽게 줄어든다.&lt;br /&gt;&lt;br /&gt;3. 근데 이러한 급격한 성장이란게 빨리 오면 빨리올수록 좋지만, 서비스 시작하자마자 큰 성장을 경험할 가능성은 상대적으로 높지 않고, 계속적으로 시장의 반응을 보고 여러가지를 트라이 해보면서 시기 조절을 해야 한다. 어떤 회사의 경우 초기에 어떤 시그널이 분명히 나왔고, 사실 그럴때 치고 나가야 하는데, 그때 “조심하느라고” 시기를 놓치기도 하고, 어떤 회사는 초기에 시장에서 나오는 시그널도 없는데 혼자 리소스 태우면서 달려서 결국 반응도 못 얻어내고 힘만 뺀 나머지, 나중에 결정적 순간이 와도 리소스가 부족한 상황을 맞기도 한다. “3년 해보니깐 기회가 오더라”는 말은 3년간 계속 시장의 시그널을 체크해 가면서 이것저것 해보다 보니 어떤 시점에 드디어 반응이 오더라는 얘기지, 그냥 가만히 있는데 3년만 버티면 기회가 온다는 얘기는 아니다.&lt;br /&gt;&lt;br /&gt;즉 정리하면..&lt;br /&gt;- 기본적으로 리스크 없애야 하고, 가장 중요한 리스크는 돈과 사람, 그중에서도 돈&lt;br /&gt;- 스타트업 == 성장. 성장 하려면 이것저것 해보고 체크해 가면서, 된다 싶을때 과감히 달려야 함&lt;br /&gt;- 이렇게 리스크 줄이고 (수비), 성장 하는 과정 (공격)을 한 3년 하다보면 분명히 기회가 올거고, &amp;nbsp;이게 바로 “3년동안 안망하고 살아남으니깐 기회가 오더라” 라는 말의 의미.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/5808393116351544673/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/09/3.html#comment-form' title='8개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/5808393116351544673'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/5808393116351544673'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/09/3.html' title='한 3년 안망하고 버틴다는 말의 의미'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>8</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-8011715504316663314</id>
+        <published>2013-09-16T23:42:00.002-07:00</published>
+        <updated>2013-09-16T23:42:31.036-07:00</updated>
+        <title type='text'>beGlobal 참관 - 느낀점</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;지난주 금요일에 열린 beGlobal 컨퍼런스에 패널로 참여하면서 개인적으로 가장 인상깊었던 부분은 우리나라 웹/모바일 스타트업들의 영어 피치 실력이었다. 실리콘밸리에 있으면서 이곳의 피치 이벤트를 가끔 갈 기회가 있는데, 이번 beGlobal에서 발표한 우리나라 스타트업의 피치 수준은 정말 전세계에서 모인 수준급 인재들로 구성된 스타트업 데모데이의 발표에 비해서 전혀 손색이 없었다.&lt;br /&gt;&lt;br /&gt;그동안 우리나라에서 시작된 웹/모바일 스타트업 중에서, 이곳 실리콘밸리로 거의 본사를 넘기다시피 하면서 이스라엘 식의 “자국내 R&amp;amp;D 센터 - 미국내 마케팅/사업거점” 구도를 갖추고 사업을 진행하는 곳들을 거의 찾아보기 힘들었다. 그만큼 강력한 코어 비즈니스를 일구면서 동시에 문화적, 언어적 장벽을 극복할수 있는 역량을 둘다 갖춘 우리나라 스타트업 파운딩 팀이 드물었다는 이야기일수도 있는데, 몇년 사이에 그런 장벽이 거의 사라진 느낌이다. 지금 우리나라의 웹/모바일 생태계를 이끌어가는 파운더 계층은 영어를 자유자재로 구사할수 있는 젊은 인재들이고, 아마 향후 몇년 이내에 한국의 인터넷 벤처들이 실리콘밸리로 진출해서 성공 스토리를 쓰는 “Korean invasion” 사례가 최소한 몇개는 나올 것이라고 기대한다.&lt;br /&gt;&lt;br /&gt;연관해서 한가지. 창업 기업의 파운더에게 있어서 가장 중요한 역량과 자질은 코딩 능력이나 마케팅 역량같은 어떤 특정한 한가지 스킬이 아니라 상대방을 공감시킬 수 있는 세일즈 능력이다. 사실 스타트업이라는게 초기에는 파운더(들)의 머릿속에 희미한 그림밖에 없는거고 그걸 제품이나 서비스로 만들기 위해서는 엔지니어를 비롯한 내부 팀을, 투자를 받기 위해서 투자가를, 트랙션을 보여주기 위해서는 고객을 설득해야 한다. 이렇듯 초기 창업기업은 모든게 다 설득과 세일즈의 과정이고, 스타트업 피치라는건 바로 이런 세일즈 과정의 진수라고 볼수 있다. 그래서 실리콘밸리 스타트업은 과장 좀 보태면 서비스 개발만큼이나 피치 연습을 하곤 한다.&lt;br /&gt;&lt;br /&gt;스티브 잡스가 하늘이 보라색이라고 연설을 하면 그걸 들었던 사람들은 적어도 5분동안은 “하늘은 보라색인가보다” 라고 느낀다는 농담이 있는데, 굳이 그런 “현실 왜곡장” 스킬이 아니더라도 배경 상황을 설정하고 (”set the stage”), 뛰어난 스토리텔링을 통해서 (사람들이 듣고 싶어하는 것은 결국 “스토리”라는 것을 명심), 듣는 사람들을 (투자가든 코파운더든 고객이든) 설득시키고 공감시키는 능력, 그게 스타트업 창업자들에게는 가장 중요한 스킬이다.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/8011715504316663314/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/09/beglobal.html#comment-form' title='1개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/8011715504316663314'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/8011715504316663314'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/09/beglobal.html' title='beGlobal 참관 - 느낀점'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>1</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-6362363162985657388</id>
+        <published>2013-08-28T10:58:00.003-07:00</published>
+        <updated>2013-08-28T10:58:59.427-07:00</updated>
+        <title type='text'>스타트업 리크루팅 (투자가, 어드바이저, 직원)</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;스타트업에서 관심있는 사람을 투자가, 어드바이저, 직원 등으로 끌어들이고 싶으면 먼저 그 사람에게 자기 회사에 대한 진심어린 조언을 구해 볼것. 몇가지 장점이 있으니..&lt;br /&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;누구나 “조언을 주는 사람 (어드바이저)” 라고 불리는 것을 좋아하며, 대부분의 양식있는 사람이라면 stupid 한 느낌을 주고 싶지 않으므로 제대로 된 조언을 주고 싶어할 것이고, 그 와중에 해당 회사에 대해서 연구하고 고민하게 된다. 그 결과 나오는 조언들 중에는 내가 미처 생각해보지 못한 부분에서 문제를 바라보게 되는 등, 도움이 되는 조언들이 많음.&amp;nbsp;&lt;/li&gt;&lt;li&gt;이 과정에서 그 사람이 우리 회사에 대해서 생각해 보는 계기를 주는 셈이고, 사람은 자기 시간과 정성이 들어간 대상에 대해서 애착을 갖게되는 경향이 있음.&amp;nbsp;&lt;/li&gt;&lt;li&gt;결국 나중에 도움을 요청할 때, 자신이 시간이나 돈이나 사회적 명성 (social reputation)을 전혀 투자하지 않은 대상에 비해서, 자신이 시간이나 돈이나 관심을 투자한 대상을 돕고 싶어하는 경향이 있음. (사람은 자기가 기울인 노력과 투자한 시간이 헛된게 아니라 나름대로 값진 것이었다고 무의식중에 자기 위안을 삼는 경향이 있음 - 심리학 책에 나오는 얘기.)&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;결국 요약하면 -- 도움을 받고 싶은 대상이 있다면, 그 사람 머리속에 나 또는 우리 회사를 어떻게 집어넣을 수 있는가가 관건 (getting in the person’s head). 물론 그 과정에서 무대뽀 정신이 가장 좋은 것만은 아님. 포기하지 않는 정신 (persistence)과 상대를 배려하지 않는 들이대기는 분명 다른 것이고 후자는 역효과를 줄수도 있음.&lt;br /&gt;&lt;br /&gt;이도저도 안되면, 17시간짜리 비행기 안에서 그사람의 꿈 속에 들어가는 방법도 있지만..&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-o-o9YEfwOgQ/Uh45zTYE4zI/AAAAAAAAB28/hACzdj45cGY/s1600/Inception1.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;266&quot; src=&quot;http://1.bp.blogspot.com/-o-o9YEfwOgQ/Uh45zTYE4zI/AAAAAAAAB28/hACzdj45cGY/s400/Inception1.jpg&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/6362363162985657388/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_28.html#comment-form' title='3개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/6362363162985657388'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/6362363162985657388'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_28.html' title='스타트업 리크루팅 (투자가, 어드바이저, 직원)'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://1.bp.blogspot.com/-o-o9YEfwOgQ/Uh45zTYE4zI/AAAAAAAAB28/hACzdj45cGY/s72-c/Inception1.jpg" height="72" width="72"/>
+        <thr:total>3</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-117242186596215772</id>
+        <published>2013-08-27T16:36:00.003-07:00</published>
+        <updated>2013-08-27T16:36:58.610-07:00</updated>
+        <title type='text'>빅 플립: 전업주부 아빠, 돈 벌어오는 엄마</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;“&lt;a href=&quot;http://bigflipdocumentary.com/&quot; target=&quot;_blank&quot;&gt;빅 플립&lt;/a&gt;” 이라는 재미있는 다큐멘터리 프로젝트를 &lt;a href=&quot;http://www.linkedin.com/today/post/article/20130827020959-132220-get-real-the-big-flip-is-coming&quot; target=&quot;_blank&quot;&gt;기사&lt;/a&gt;를 따라가서 보게 되었다. 현재 미국 가정의 40% 가까이의 경우 아내가 남편보다 더 수입이 높은 가정이라고 한다. 어린 아이들이 있는 가정의 경우, 돈벌어올수 있는 능력이 더 높은 (higher earning potential) 엄마가 밖에서 일을 하고 남편은 전업주부 역할을 하는 가정도 늘어나고 있는 추세. 아마 우리나라도 이와 사정이 크게 다르지 않거나 빨리 이런 추세로 변화하고 있을 것 같다.&lt;br /&gt;&lt;br /&gt;&lt;iframe frameborder=&quot;0&quot; height=&quot;360&quot; src=&quot;http://www.kickstarter.com/projects/izzychan/what-does-it-take-for-love-to-endure-in-the-big-fl/widget/video.html&quot; width=&quot;480&quot;&gt; &lt;/iframe&gt; &lt;br /&gt;문제는 이런 추세가 기존 성역할의 완전한 뒤바뀜을 의미하다보니 이로 인한 가정내에서의 갈등의 조짐이 보인다는 것. 아빠는 물론 엄마마저도 그런 상황에 대해서 그다지 행복하게 느끼지 못하고 있다고 한다.&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;아내의 수입이 높은 경우 남편의 행복도가 61% 저하&amp;nbsp;&lt;/li&gt;&lt;li&gt;아내가 가정내 주 소득원일 경우, 아내의 행복도 역시 낮음&amp;nbsp;&lt;/li&gt;&lt;li&gt;아내의 수입에 의존하는 경우 남편이 외도할 가능성이 다섯배 높음&amp;nbsp;&lt;/li&gt;&lt;li&gt;아내가 가정 소득의 60% 이상 차지할 경우 이혼율 40% 높음&amp;nbsp;&lt;/li&gt;&lt;li&gt;미국인 51%는 어마가 집에 있는게 아이 교육에 더 좋다고 생각. 반면 아빠가 집에 있을 경우 더 좋다고 생각하는 비중은 8%에 불과&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;점점 가면 갈수록 이러한 전통적 성 역할의 변화가 진행될 것인데, 그로 인한 가정내 불화가 초래되면 안된다는 것이 다큐멘터리가 다루고 있는 주제.&lt;br /&gt;&lt;br /&gt;아빠는 아빠대로 마치 숫사자가 집안에 갇혀있는 듯한 고립된 기분을 느낄테고, 엄마는 엄마대로 돈벌어오느라 힘든데다 다른 엄마들처럼 아이들을 잘 보살피지 못하고 있다는 느낌을 느낄 테고.. 양쪽 모두 불행의 요소를 안고 있지만 딱히 해결책은 없는 상황. 우리나라의 경우 이러한 문제를 어떻게 해결해 나가고 있을까? 궁금하다.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/117242186596215772/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_27.html#comment-form' title='1개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/117242186596215772'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/117242186596215772'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_27.html' title='빅 플립: 전업주부 아빠, 돈 벌어오는 엄마'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>1</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-463566737590494671</id>
+        <published>2013-08-19T13:02:00.002-07:00</published>
+        <updated>2013-08-19T13:02:52.330-07:00</updated>
+        <title type='text'>구글벤처스에서 소개하는 빠른 프로토타이핑 기법</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;a href=&quot;http://venturebeat.com/2013/08/14/how-google-venture-partners-does-rapid-prototyping-design-sprints-with-its-170-startups/&quot; target=&quot;_blank&quot;&gt;원문 참고&lt;/a&gt;.&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;잘못된 아이디어를 꾸역꾸역 만드는 것도 나쁘고, &amp;nbsp;아이디어만 이야기하다가 실제 유저가 볼수 있는 피쳐를 론치하지 못하는 것도 문제. 팀 단위로 모여서 빠른 시간내에 의사결정을 하고 피쳐 론치를 할수 있는 방법에 대한 구글벤처스의 제언.&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;1. 린 스타트업 방식대로, 빨리 만들고 데이터 수집을 통해 최종 결정.&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. 그룹 브레인스토밍이 아니라 반드시 개인 작업에서 시작. (&quot;“You should never do group brainstorming ... We always start with individual work.”) 회의에 참여하는 모든 사람이 우선 개별적으로 브레인스토밍 및 mockup 작업을 한 뒤에, 비로소 그룹 회의 시작.&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. 스케치 작업에 들어가기 전에 우선 문제 분석부터. 너무 일찍 스케치 작업에 돌입하지 않음.&amp;nbsp;&lt;/div&gt;&lt;div&gt;4. 완전히 민주적인 결정이 아니라 의사결정자의 권한 존중. 다른 사람들과는 다른 vote 권한 부여.&amp;nbsp;&lt;/div&gt;&lt;div&gt;5. 목업 스케치 작업은 최대한 간단한 툴 (이를테면 애플 Keynote) 사용. 처음부터 화려하게 포토샵 등으로 그럴싸하게 &quot;있어보이는&quot; 스케치 하는데 시간낭비하지 않기. &amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;6. 5일간의 과정을 통해 결론 도출, 빨리 론칭 후 데이터 분석.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/463566737590494671/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_19.html#comment-form' title='0개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/463566737590494671'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/463566737590494671'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_19.html' title='구글벤처스에서 소개하는 빠른 프로토타이핑 기법'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-615544429422047629</id>
+        <published>2013-08-16T17:35:00.000-07:00</published>
+        <updated>2013-08-16T17:35:15.191-07:00</updated>
+        <title type='text'>정말 좋은 블로그 소개 - 이안님 블로그</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;주변 사람들에게 블로그 써보시라고 하면 대부분 거창하고 멋진 글만 써야 하는줄 알고 부담을 가진다. 하지만 수필가나 소설가가 아닌이상 멋지고 거창한 글 써야 하는것도 아니고 그렇게 쓴다고 해서 알아주는 사람도 없다^^. 그냥 자기가 경험한 얘기 쓰는거다. &quot;남들도 다 하는거고 다 아는 얘기일텐데&quot; 라고 미리부터 걱정할 필요가 없는게, 자신이 일상에서 흔히 겪는 얘기도, 그 세계를 모르는 다른 사람들이 볼때는 아주 신선한 컨텐츠가 될수 있기 때문. (우리 모두는 비행기 파일럿들이 닫힌 문 너머 조종칸에서 겪는 흔한 얘기가 궁금하지 않은가? 도시락을 먹는지 기내식을 먹는지 등등?^^)&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://ultracaption.net/&quot; target=&quot;_blank&quot;&gt;울트라캡숑&lt;/a&gt;을 이끄는 이안님이 쓰시는 &lt;a href=&quot;http://iankwon.tumblr.com/&quot; target=&quot;_blank&quot;&gt;블로그&lt;/a&gt;는 그런 면에서 정말 좋은 컨텐츠를 담고 있다. 스타트업의 운영과정을 현재진행형으로 진솔하게 보여주고 있고, 그 과정에서 얻는 insight를 가감없이 공유하고 있다. 특유의 맛깔나고 재미있는 글스타일은 덤. 업계 분들이라면 지금 바로 &lt;a href=&quot;http://iankwon.tumblr.com/&quot; target=&quot;_blank&quot;&gt;방문해 보시길&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-EMo99x3iOL4/Ug6_6aPwEdI/AAAAAAAAB2Y/Rr8aP37D3kI/s1600/1.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;640&quot; src=&quot;http://3.bp.blogspot.com/-EMo99x3iOL4/Ug6_6aPwEdI/AAAAAAAAB2Y/Rr8aP37D3kI/s640/1.png&quot; width=&quot;388&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/615544429422047629/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_16.html#comment-form' title='1개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/615544429422047629'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/615544429422047629'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_16.html' title='정말 좋은 블로그 소개 - 이안님 블로그'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://3.bp.blogspot.com/-EMo99x3iOL4/Ug6_6aPwEdI/AAAAAAAAB2Y/Rr8aP37D3kI/s72-c/1.png" height="72" width="72"/>
+        <thr:total>1</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-4925515924837801296.post-2617885586717266553</id>
+        <published>2013-08-14T22:50:00.001-07:00</published>
+        <updated>2013-08-14T22:51:56.129-07:00</updated>
+        <title type='text'>실리콘밸리에서 아이 키우기</title>
+        <content type='html'>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;내일자로 첫아이가 학교에 들어가서, 정식으로 학부모가 된다 (미국은 유치원부터 정규교육 과정 시작). 물론 어떤 신문기사를 보면 정말 한국의 교육 환경이 너무도 살벌하다는 것을 느낀다. 여러가지로 들어보면 미국의 교육환경은 한국 교육환경에 비해 아이들을 덜 혹사시키는 것만큼은 분명한것 같다. 하지만 사람 사는 곳은 정도의 차이만 있을뿐 어디나 완벽한 곳은 없는거고 사람들 모이는 곳에 경쟁이 없을 수 없다. 혹시라도 “한국의 교육환경은 지옥, 미국의 교육환경은 천국” 정도로 생각하는 분들이 있을까봐 이곳 실리콘밸리지역의 유치원/초등학교 교육 관련해서 우리 가정이 실제로 겪고있는 일들 몇가지만 공유해 본다.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;말도 안되게 비싼 교육비&lt;/b&gt;. 한국으로 치면 어린이집에 해당하는 프리스쿨의 경우 보통 한달에 1,200불에서 1,500불 정도 수업료가 든다. 그나마 이정도는 양호한 곳이고 비싼곳은 한달에 2,000불 가까이 들기도 한다. 보통 아이 한명당 한달에 100-200만원씩 든다는 얘기. 우리나라의 시설 좋으면서도 국가 지원금까지 나오는 어린이집을 생각하면 큰 오산이다. 맞벌이 대신 아이를 집에서 보는게 더 싸게 먹힌다는 이야기가 농담이 아니라 진지하게 오가게 마련. 그럼에도 불구하고 시설이 부족해서인지 프리스쿨마다 자리가 없어서 난리고, 보통 waiting list에 걸어놓으면 짧으면 몇달, 길면 1년 가까이 기다려야 가까스로 자리가 난다. 그에 반해 교육의 질이 특별히 좋으냐 하면 그렇지도 않고, 한국의 어린이집 프로그램이 더 짜임새있고 알차다. 프리스쿨 이후에 정규 공교육이 시작되어도 교육비 부담이 전혀 없어지진 않는게, 보통 낮 12시에서 2시 사이에 학교가 끝나기 때문에 아이들을 거의 대부분 방과후 코스에 보내곤 하는데, 그것 역시 한달에 1000불 정도가 들기 때문. 게다가 각종 도네이션 등도 “보통 남들 하는대로”는 하다보면 특히 맞벌이 등의 이유로 방과후 코스를 선택해야 하는 가정의 경우 공립 초등학교에 보내도 교육비가 상당히 많이 드는 편이다.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;아시안계 학생들의 경쟁&lt;/b&gt;. 보통 한국 부모들이 가고자 하는 곳은 학군이 좋은 곳이다. 근데 학군에 대해서 리서치를 해본 결과 내가 내린 결론은, 보통 학군 좋다고 하는 곳과 전체 학생대비 아시안계 학생들의 비중의 연관계수를 뽑아보면 거의 1.0에 가깝다는 것. 즉 많은 경우 학군 좋다고 하는 곳은 아시안계 학생 비중 높다는 말과 거의 비슷하다는 것이다. 한인들이 많이 거주하는 쿠퍼티노 지역의 경우 가장 평균점수가 높은 모 학교의 경우 아시안계 비중이 97%에 달한다. 그러다보니 아시안계 학생들 간의 학업 경쟁이 때로는 한국을 연상케 할정도로 높다 (일부 고등학교에서는 학업 성적을 비관해서 자살하는 학생도 최근 몇년간 나왔을 정도.) 중국 인도 부모들의 극성스러움은 때로는 한국부모들 저리가라 수준이다. 심한경우 줄서서 타는 놀이기구 문이 열리면 그중에 좋은 칸에 타려고 자기 아이를 데리고 저 뒤에서부터 사람들 밀치고 뛰어오는 아줌마가 있을 정도 (실제 내가 당한 사례임). 그리고 유치원 아이들이 수업 끝나고 가는 중국인 방과후 교실에서는 오후 심화과정(?) 을 통해서 중국어로 유치원 진도를 미리 다 빼준다는, 웃지 못할 이야기도 있다. 소위 학군 좋다고 하는데 사는 아이들 중에는 이런 경쟁에 치이고 집에서는 무조건 상위권 성적을 기대하는 부모의 기대 사이에서 제대로 기 못펴고 있는 아이들이 더러 있다.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;운동 및 기타 부문에서의 경쟁&lt;/b&gt;. 한국 학교에서는 학업으로 모든 학생들이 천편일률적으로 경쟁하는게 문제지만, 그렇다고 미국 학교에서 경쟁이 없는건 절대로 아니다. 오히려 학업 외의 다양한 방면에서 경쟁을 하기 때문에 부모 입장에서는 이것저것 다 가르쳐야 하니 훨씬 더 피곤하다. 미국에서 명문대에 들어가려면 바이올린 콩쿨에서 입상하고 운동도 올림픽 출전 선수들 수준으로 해야 한다는 말이 있다. 그래서 유치원때부터도 학교 프로그램이 끝나면 여기저기로 실어나르기 바쁜데, 한국처럼 학원에서 알아서 차를 보내서 라이드를 해주는 경우는 드물고 대부분 엄마들이 아이들을 직접 실어날라야 하고, 따라서 아이를 여럿 둔 어떤 엄마는 하루에 아이들 라이드때문에 여섯~일곱시간씩 매일매일 차에서 보내기도 한다.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;아이들간의 집안 편차&lt;/b&gt;. 우리나라도 마찬가지겠지만, 아이들끼리 알게모르게 집안 비교를 하면서 &amp;nbsp;아이들뿐 아니라 부모에게도 스트레스를 주는것은 여기도 똑같다. 우리나라는 그나마 사람들 살아가는 모습이 고만고만하고 중산층 생활수준이 그나마 엇비슷한 편이지만 이곳 베이지역은 천차만별이라서, 어떤 집은 진짜로 아이들 생일파티를 요트에서 하기도 한다. 우리 아이가 그런 생일잔치에 초대되면 그다음에 우리 아이 생일잔치를 해주기가 상당히 부담스러워진다. 부모 입장에서는 알게 모르게 이런걸로 무지하게 정신적 스트레스를 받을수 있다.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;인종차별과 괴롭힘.&lt;/b&gt; 실리콘밸리 지역이야 워낙 아시안계가 많으니 인종차별은 덜한 편. 하지만 가끔 아이들끼리 서로 다른 인종간에 갈등이 있기도 하고, 이런 불리(bully) 사례들은 종종 아이들에게 평생 기억에 남는 상처를 주기도 한다. 어떤 아이의 경우 다른 여자아이가 옷갈아입는 모습을 우연히 보게 되었는데 마치 일부러 쳐다봤다는 것처럼 오해를 사서, 이제 겨우 2학년인데도 상급생 아이들에게 거의 성고문(?)에 가까운 트라우마를 겪고 결국 다른 학교로 옮기기도 했다. 찾아보면 미국 학교에서도 이런 학교폭력 사례는 꽤 많이 있어서 부모들을 불안하게 한다.&lt;br /&gt;&lt;br /&gt;+ + +&lt;br /&gt;&lt;br /&gt;결론은.. 어디든 간에 환경보다는 부모가 얼마나 똑바로된 가치관을 가지고 아이들을 가르치느냐가 제일 중요하다는 뻔한 이야기. 다른건 모르겠고, 하나 확실히 말할수 있는건 미국의 교육환경이 한국에 비해서 조금 덜 살벌한 수는 있을지언정 여기라고 해서 사교육과 경쟁이 없는건 절대로 아니라는 점이다.&amp;nbsp;&lt;/div&gt;</content>
+        <link rel='replies' type='application/atom+xml' href='http://www.memoriesreloaded.net/feeds/2617885586717266553/comments/default' title='댓글'/>
+        <link rel='replies' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_14.html#comment-form' title='3개의 덧글'/>
+        <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/2617885586717266553'/>
+        <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/4925515924837801296/posts/default/2617885586717266553'/>
+        <link rel='alternate' type='text/html' href='http://www.memoriesreloaded.net/2013/08/blog-post_14.html' title='실리콘밸리에서 아이 키우기'/>
+        <author>
+            <name>Chang</name>
+            <uri>http://www.blogger.com/profile/18239810504090027212</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='28' height='32' src='http://3.bp.blogspot.com/_NxqIgYB-Nlg/TOq6aq3gQQI/AAAAAAAAAxU/WdFNTuUITIk/S220/me1.png'/>
+        </author>
+        <thr:total>3</thr:total>
+    </entry>
+</feed>
