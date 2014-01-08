@@ -30,7 +30,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:choice maxOccurs="unbounded">
                 <xs:element name="updatePeriod" type="UpdatePeriod" minOccurs="0" default="daily">
                     <xs:annotation>
                         <xs:documentation>Describes the period over which the channel format is updated. Acceptable values are: hourly, daily, weekly, monthly, yearly. If omitted, daily is assumed.</xs:documentation>
