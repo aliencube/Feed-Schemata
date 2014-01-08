@@ -101,13 +101,13 @@
                         <xs:documentation><![CDATA[Example: <pre>betty@herald.com (Betty Guernsey)</pre>]]></xs:documentation>
                     </xs:annotation>
                 </xs:element>
-                <xs:element name="pubDate" type="Rfc822FormatDate" minOccurs="0">
+                <xs:element name="pubDate" type="Rfc822DateTimeFormat" minOccurs="0">
                     <xs:annotation>
                         <xs:documentation>The publication date for the content in the channel. All date-times in RSS conform to the Date and Time Specification of [RFC 822](http://asg.web.cmu.edu/rfc/rfc822.html), with the exception that the year may be expressed with two characters or four characters (four preferred).</xs:documentation>
                         <xs:documentation><![CDATA[Example: <pre>Sat, 07 Sep 2002 00:00:01 GMT</pre>]]></xs:documentation>
                     </xs:annotation>
                 </xs:element>
-                <xs:element name="lastBuildDate" type="Rfc822FormatDate" minOccurs="0">
+                <xs:element name="lastBuildDate" type="Rfc822DateTimeFormat" minOccurs="0">
                     <xs:annotation>
                         <xs:documentation>The last time the content of the channel changed.</xs:documentation>
                         <xs:documentation><![CDATA[Example: <pre>Sat, 07 Sep 2002 09:42:31 GMT</pre>]]></xs:documentation>
@@ -411,7 +411,7 @@
                         <xs:documentation>guid or permalink URL for this entry. [More](http://www.rssboard.org/rss-specification#ltguidgtSubelementOfLtitemgt).</xs:documentation>
                     </xs:annotation>
                 </xs:element>
-                <xs:element name="pubDate" type="Rfc822FormatDate" minOccurs="0">
+                <xs:element name="pubDate" type="Rfc822DateTimeFormat" minOccurs="0">
                     <xs:annotation>
                         <xs:documentation>Indicates when the item was published. [More](http://www.rssboard.org/rss-specification#ltpubdategtSubelementOfLtitemgt).</xs:documentation>
                     </xs:annotation>
@@ -510,7 +510,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="Rfc822FormatDate">
+    <xs:simpleType name="Rfc822DateTimeFormat">
         <xs:annotation>
             <xs:documentation>A date-time displayed in RFC-822 format.</xs:documentation>
             <xs:documentation>Using the regexp definiton of rfc-822 date by Sam Ruby at http://www.intertwingly.net/blog/1360.html </xs:documentation>
