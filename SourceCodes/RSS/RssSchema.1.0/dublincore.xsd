@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="dublincore"
-    targetNamespace="http://feed-schemata.aliencube.org/rss/1.0/dublincore.xsd"
-    xmlns="http://feed-schemata.aliencube.org/rss/1.0/dublincore.xsd"
-    xmlns:mstns="http://feed-schemata.aliencube.org/rss/1.0/dublincore.xsd"
+    targetNamespace="http://purl.org/dc/elements/1.1/"
+    xmlns="http://purl.org/dc/elements/1.1/"
+    xmlns:mstns="http://purl.org/dc/elements/1.1/"
     elementFormDefault="qualified"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="1.0"
