@@ -16,7 +16,7 @@
         <xs:documentation>License: This is released under MIT License (http://opensource.org/licenses/MIT).</xs:documentation>
     </xs:annotation>
 
-    <xs:element name="syndication" type="Syndication">
+    <xs:element name="sy" type="Syndication">
         <xs:annotation>
             <xs:documentation>Provides syndication hints to aggregators and others picking up this RDF Site Summary (RSS) feed regarding how often it is updated. For example, if you updated your file twice an hour, updatePeriod would be "hourly" and updateFrequency would be "2". The syndication module borrows from Ian Davis's [Open Content Syndication (OCS)](http://internetalchemy.org/ocs/) directory format. It supercedes the RSS 0.91 skipDay and skipHour elements.</xs:documentation>
             <xs:documentation>Namespace declaration: xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"</xs:documentation>
@@ -30,7 +30,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:choice maxOccurs="unbounded">
                 <xs:element name="updatePeriod" type="UpdatePeriod" minOccurs="0" default="daily">
                     <xs:annotation>
                         <xs:documentation>Describes the period over which the channel format is updated. Acceptable values are: hourly, daily, weekly, monthly, yearly. If omitted, daily is assumed.</xs:documentation>

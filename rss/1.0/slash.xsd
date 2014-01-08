@@ -34,7 +34,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:choice maxOccurs="unbounded">
                 <!-- Optional elements -->
                 <xs:element name="section" type="xs:string" minOccurs="0" />
                 <xs:element name="department" type="xs:string" minOccurs="0" />

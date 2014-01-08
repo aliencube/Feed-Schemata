@@ -16,7 +16,7 @@
         <xs:documentation>License: This is released under MIT License (http://opensource.org/licenses/MIT).</xs:documentation>
     </xs:annotation>
 
-    <xs:element name="dublinCore" type="DublinCore">
+    <xs:element name="dc" type="DublinCore">
         <xs:annotation>
             <xs:documentation>The [Dublin Core Metadata Element Set](http://purl.org/dc/documents/rec-dces-19990702.htm) provides some standard metadata elements. These are listed below for your quick reference; be sure to visit the [Dublin Core](http://purl.org/dc/documents/rec-dces-19990702.htm) site for more specifics.</xs:documentation>
             <xs:documentation>Namespace declaration: xmlns:dc="http://purl.org/dc/elements/1.1/"</xs:documentation>
@@ -32,7 +32,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:choice maxOccurs="unbounded">
                 <xs:element name="contributor" type="xs:string" minOccurs="0">
                     <xs:annotation>
                         <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
