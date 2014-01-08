@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="syndication"
-    targetNamespace="http://feed-schemata.aliencube.org/rss/1.0/syndication.xsd"
-    xmlns="http://feed-schemata.aliencube.org/rss/1.0/syndication.xsd"
-    xmlns:mstns="http://feed-schemata.aliencube.org/rss/1.0/syndication.xsd"
+    targetNamespace="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:mstns="http://purl.org/rss/1.0/modules/syndication/"
     elementFormDefault="qualified"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="1.0"
