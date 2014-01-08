@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="commentapi"
+    targetNamespace="http://www.wellformedweb.org/CommentAPI/"
+    xmlns="http://www.wellformedweb.org/CommentAPI/"
+    xmlns:mstns="http://www.wellformedweb.org/CommentAPI/"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+    <xs:annotation>
+        <xs:documentation>XML Schema for Comment API</xs:documentation>
+        <xs:documentation>This is based on the Well-formed Web specification document defined at BitWorking (http://bitworking.org/news/2012/08/wfw.html).</xs:documentation>
+        <xs:documentation>URL: http://feed-schemata.aliencube.org</xs:documentation>
+        <xs:documentation>Author: Aliencube Community</xs:documentation>
+        <xs:documentation>Issues: Any issue related this can be raised here (https://github.com/aliencube/Feed-Schemata/issues).</xs:documentation>
+        <xs:documentation>License: This is released under MIT License (http://opensource.org/licenses/MIT).</xs:documentation>
+    </xs:annotation>
+
+    <xs:element name="wfw" type="WellFormedWeb">
+        <xs:annotation>
+            <xs:documentation>Provides syndication extension for comments</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:wfw="http://www.wellformedweb.org/CommentAPI/"</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:complexType name="WellFormedWeb">
+        <xs:annotation>
+            <xs:documentation>Provides syndication extension for comments</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:wfw="http://www.wellformedweb.org/CommentAPI/"</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="comment" type="xs:anyURI" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>The first element to appear in this namespace is comment. This element appears in RSS feeds and contains the URI that comment entries are to be POSTed to.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="commentRss" type="xs:anyURI" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>The second element to appear in the wfw namespace is commentRss. This element also appears in RSS feeds and contains the URI of the RSS feed for comments on that Item. This is documented in [Chris Sells' Specification](http://www.sellsbrothers.com/spout/default.aspx?content=archive.htm#exposingRssComments). Note that for quite a while this page has had a typo and erroneously referred to this element as 'commentRSS' as opposed to the correct 'commentRss'. Feed consumers should be aware that they may run into both spellings in the wild. Please see [this page](http://intertwingly.net/blog/2006/04/15/commentRss) for more information.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="commentRSS" type="xs:anyURI" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>This is preserved for backward compatibility ONLY. DO NOT USE</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
