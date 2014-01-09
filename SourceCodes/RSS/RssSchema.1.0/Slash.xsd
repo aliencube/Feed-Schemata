@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="slash"
+    targetNamespace="http://purl.org/rss/1.0/modules/slash/"
+    xmlns="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:mstns="http://purl.org/rss/1.0/modules/slash/"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="1.0"
+>
+    <xs:annotation>
+        <xs:documentation>XML Schema for RSS feeds 1.0</xs:documentation>
+        <xs:documentation>This is based on the RDF Site Summary 1.0 specification document defined by RSS-DEV Working Group (http://web.resource.org/rss/1.0/modules/slash/).</xs:documentation>
+        <xs:documentation>URL: http://feed-schemata.aliencube.org</xs:documentation>
+        <xs:documentation>Author: Aliencube Community</xs:documentation>
+        <xs:documentation>Issues: Any issue related this can be raised here (https://github.com/aliencube/Feed-Schemata/issues).</xs:documentation>
+        <xs:documentation>License: This is released under MIT License (http://opensource.org/licenses/MIT).</xs:documentation>
+    </xs:annotation>
+
+    <xs:element name="slash" type="Slash">
+        <xs:annotation>
+            <xs:documentation>Slash is the source code and database that was originally used to create Slashdot, and has now been released under the GNU General Public License. It is a bona fide Open Source / Free Software project.</xs:documentation>
+            <xs:documentation>The Slash RSS 1.0 module augments the RSS core and [Dublin Core](http://purl.org/rss/1.0/modules/dc/) module's metadata with channel and item-level elements specific to Slash-based sites.</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:sy="http://purl.org/rss/1.0/modules/slash/"</xs:documentation>
+            <xs:documentation>Remark: The namespace declaration no longer exists but exists [here](http://web.resource.org/rss/1.0/modules/slash/).</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:complexType name="Slash">
+        <xs:annotation>
+            <xs:documentation>Slash is the source code and database that was originally used to create Slashdot, and has now been released under the GNU General Public License. It is a bona fide Open Source / Free Software project.</xs:documentation>
+            <xs:documentation>The Slash RSS 1.0 module augments the RSS core and [Dublin Core](http://purl.org/rss/1.0/modules/dc/) module's metadata with channel and item-level elements specific to Slash-based sites.</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:sy="http://purl.org/rss/1.0/modules/slash/"</xs:documentation>
+            <xs:documentation>Remark: The namespace declaration no longer exists but exists [here](http://web.resource.org/rss/1.0/modules/slash/).</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <!-- Optional elements -->
+                <xs:element name="section" type="xs:string" minOccurs="0" />
+                <xs:element name="department" type="xs:string" minOccurs="0" />
+                <xs:element name="comments" type="xs:positiveInteger" minOccurs="0" />
+                <xs:element name="hit_parade" type="CommaSeparatedInteger" minOccurs="0" />
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="CommaSeparatedInteger">
+        <xs:annotation>
+            <xs:documentation></xs:documentation>
+        </xs:annotation>
+
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(\d+|\d+,(\d+,)*\d+)" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
