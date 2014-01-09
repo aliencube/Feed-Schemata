@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dublincore"
+    targetNamespace="http://purl.org/dc/elements/1.1/"
+    xmlns="http://purl.org/dc/elements/1.1/"
+    xmlns:mstns="http://purl.org/dc/elements/1.1/"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="1.0"
+>
+    <xs:annotation>
+        <xs:documentation>XML Schema for RSS feeds 1.0</xs:documentation>
+        <xs:documentation>This is based on the RDF Site Summary 1.0 specification document defined by RSS-DEV Working Group (http://web.resource.org/rss/1.0/modules/dc/).</xs:documentation>
+        <xs:documentation>URL: http://feed-schemata.aliencube.org</xs:documentation>
+        <xs:documentation>Author: Aliencube Community</xs:documentation>
+        <xs:documentation>Issues: Any issue related this can be raised here (https://github.com/aliencube/Feed-Schemata/issues).</xs:documentation>
+        <xs:documentation>License: This is released under MIT License (http://opensource.org/licenses/MIT).</xs:documentation>
+    </xs:annotation>
+
+    <xs:element name="dc" type="DublinCore">
+        <xs:annotation>
+            <xs:documentation>The [Dublin Core Metadata Element Set](http://purl.org/dc/documents/rec-dces-19990702.htm) provides some standard metadata elements. These are listed below for your quick reference; be sure to visit the [Dublin Core](http://purl.org/dc/documents/rec-dces-19990702.htm) site for more specifics.</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:dc="http://purl.org/dc/elements/1.1/"</xs:documentation>
+            <xs:documentation>For more details: DCMI Metadata Terms (http://dublincore.org/documents/dcmi-terms/#elements-contributor).</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:complexType name="DublinCore">
+        <xs:annotation>
+            <xs:documentation>The [Dublin Core Metadata Element Set](http://purl.org/dc/documents/rec-dces-19990702.htm) provides some standard metadata elements. These are listed below for your quick reference; be sure to visit the [Dublin Core](http://purl.org/dc/documents/rec-dces-19990702.htm) site for more specifics.</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:dc="http://purl.org/dc/elements/1.1/"</xs:documentation>
+            <xs:documentation>For more details: DCMI Metadata Terms (http://dublincore.org/documents/dcmi-terms/#elements-contributor).</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="contributor" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making contributions to the resource.</xs:documentation>
+                        <xs:documentation>Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="coverage" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.</xs:documentation>
+                        <xs:documentation>Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="creator" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity primarily responsible for making the resource.</xs:documentation>
+                        <xs:documentation>Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="date" type="W3cDateTimeFormat" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>A point or period of time associated with an event in the lifecycle of the resource.</xs:documentation>
+                        <xs:documentation>Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</xs:documentation>
+                        <xs:documentation>Reference: W3DTF (http://www.w3.org/TR/NOTE-datetime)</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="description" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An account of the resource.</xs:documentation>
+                        <xs:documentation>Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="format" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>The file format, physical medium, or dimensions of the resource.</xs:documentation>
+                        <xs:documentation>Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME].</xs:documentation>
+                        <xs:documentation>Reference: MIME (http://www.iana.org/assignments/media-types/)</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="identifier" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An unambiguous reference to the resource within a given context.</xs:documentation>
+                        <xs:documentation>Recommended best practice is to identify the resource by means of a string conforming to a formal identification system.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="language" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>A language of the resource.</xs:documentation>
+                        <xs:documentation>Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646].</xs:documentation>
+                        <xs:documentation>Reference: RFC4646 (http://www.ietf.org/rfc/rfc4646.txt)</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="publisher" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>An entity responsible for making the resource available.</xs:documentation>
+                        <xs:documentation>Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="relation" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>A related resource.</xs:documentation>
+                        <xs:documentation>Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="rights" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Information about rights held in and over the resource.</xs:documentation>
+                        <xs:documentation>Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="source" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>A related resource from which the described resource is derived.</xs:documentation>
+                        <xs:documentation>The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="subject" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>The topic of the resource.</xs:documentation>
+                        <xs:documentation>Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="title" type="xs:string" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>A name given to the resource.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="type" type="DcmiType" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>The nature or genre of the resource.</xs:documentation>
+                        <xs:documentation>Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</xs:documentation>
+                        <xs:documentation>Reference: DCMITYPE (http://dublincore.org/documents/dcmi-type-vocabulary/)</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="W3cDateTimeFormat">
+        <xs:annotation>
+            <xs:documentation>A point or period of time associated with an event in the lifecycle of the resource.</xs:documentation>
+            <xs:documentation>Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].</xs:documentation>
+            <xs:documentation>Reference: W3DTF (http://www.w3.org/TR/NOTE-datetime)</xs:documentation>
+        </xs:annotation>
+
+        <xs:restriction base="xs:string">
+            <xs:pattern value="^\d{4}(\-\d{2}(\-\d{2}(T\d{2}:\d{2}(:\d{2}(\.\d+)?)?(\+|\-)\d{2}:\d{2})?)?)?$" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="DcmiType">
+        <xs:annotation>
+            <xs:documentation>The nature or genre of the resource.</xs:documentation>
+            <xs:documentation>Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</xs:documentation>
+            <xs:documentation>Reference: DCMITYPE (http://dublincore.org/documents/dcmi-type-vocabulary/)</xs:documentation>
+        </xs:annotation>
+
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Collection" />
+            <xs:enumeration value="Dataset" />
+            <xs:enumeration value="Event" />
+            <xs:enumeration value="Image" />
+            <xs:enumeration value="InteractiveResource" />
+            <xs:enumeration value="MovingImage" />
+            <xs:enumeration value="PhysicalObject" />
+            <xs:enumeration value="Service" />
+            <xs:enumeration value="Software" />
+            <xs:enumeration value="Sound" />
+            <xs:enumeration value="StillImage" />
+            <xs:enumeration value="Text" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

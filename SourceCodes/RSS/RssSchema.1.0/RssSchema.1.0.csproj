@@ -42,7 +42,19 @@
     <Compile Include="..\..\..\Documents\Properties\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="content.cs">
+      <DependentUpon>content.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dublincore.cs">
+      <DependentUpon>dublincore.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="slash.cs">
+      <DependentUpon>slash.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="syndication.cs">
+      <DependentUpon>syndication.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="content.xsd">
@@ -59,6 +71,25 @@
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+xcopy "$(TargetDir)*.cs" "$(ProjectDir)" /y
+
+del "$(TargetDir)*.xsd"
+del "$(TargetDir)*.cs" 
+</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+xcopy "$(ProjectDir)*.xsd" "$(SolutionDir)..\Libraries\Schemata\" /y
+xcopy "$(ProjectDir)*.xsd" "$(TargetDir)" /y
+
+for /f "delims=" %25%25a in ('dir *.xsd /b /s') do (
+    "$(SolutionDir)..\Documents\Scripts\compile.cmd" %25%25~nxa Extensions
+    xcopy %25%25~na.cs "$(SolutionDir)..\Libraries\Converted\" /y
+)
+</PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
