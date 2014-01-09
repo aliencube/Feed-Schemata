@@ -45,16 +45,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="content.xsd">
+    <None Include="Content.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="dublincore.xsd">
+    <None Include="DublinCore.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="slash.xsd">
+    <None Include="Slash.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="syndication.xsd">
+    <None Include="Syndication.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -71,7 +71,7 @@ xcopy "$(ProjectDir)*.xsd" "$(SolutionDir)..\Libraries\Schemata\" /y
 xcopy "$(ProjectDir)*.xsd" "$(TargetDir)" /y
 
 for /f "delims=" %25%25a in ('dir *.xsd /b /s') do (
-    "$(SolutionDir)..\Documents\Scripts\compile.cmd" %25%25~nxa Extensions
+    "$(SolutionDir)..\Documents\Scripts\compile.cmd" %25%25~nxa %25%25~na
     xcopy %25%25~na.cs "$(SolutionDir)..\Libraries\Converted\" /y
 )
 </PreBuildEvent>

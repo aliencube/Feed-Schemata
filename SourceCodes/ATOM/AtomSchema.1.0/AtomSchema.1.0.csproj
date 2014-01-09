@@ -45,7 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="atom.xsd">
+    <None Include="Atom.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -62,7 +62,7 @@ xcopy "$(ProjectDir)*.xsd" "$(SolutionDir)..\Libraries\Schemata\" /y
 xcopy "$(ProjectDir)*.xsd" "$(TargetDir)" /y
 
 for /f "delims=" %25%25a in ('dir *.xsd /b /s') do (
-    "$(SolutionDir)..\Documents\Scripts\compile.cmd" %25%25~nxa Atom
+    "$(SolutionDir)..\Documents\Scripts\compile.cmd" %25%25~nxa %25%25~na
     xcopy %25%25~na.cs "$(SolutionDir)..\Libraries\Converted\" /y
 )
 </PreBuildEvent>
