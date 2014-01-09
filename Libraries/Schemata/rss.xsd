@@ -55,7 +55,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice id="Channel" maxOccurs="unbounded">
+            <xs:choice maxOccurs="unbounded">
                 <!-- Required elements -->
                 <xs:element name="title" type="xs:string">
                     <xs:annotation>
@@ -193,7 +193,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice id="Image" maxOccurs="unbounded">
+            <xs:choice maxOccurs="unbounded">
                 <!-- Required elements -->
                 <xs:element name="url" type="xs:anyURI">
                     <xs:annotation>
@@ -285,7 +285,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice id="TextInput" maxOccurs="unbounded">
+            <xs:choice maxOccurs="unbounded">
                 <!-- Required elements -->
                 <xs:element name="title" type="xs:string">
                     <xs:annotation>
@@ -364,7 +364,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice id="Item" maxOccurs="unbounded">
+            <xs:choice maxOccurs="unbounded">
                 <!-- Required elements -->
                 <xs:element name="title" type="xs:string" minOccurs="0">
                     <xs:annotation>

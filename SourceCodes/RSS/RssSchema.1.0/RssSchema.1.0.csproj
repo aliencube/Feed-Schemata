@@ -42,19 +42,7 @@
     <Compile Include="..\..\..\Documents\Properties\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="content.cs">
-      <DependentUpon>content.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="dublincore.cs">
-      <DependentUpon>dublincore.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="slash.cs">
-      <DependentUpon>slash.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="syndication.cs">
-      <DependentUpon>syndication.xsd</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="content.xsd">
@@ -73,8 +61,6 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
-xcopy "$(TargetDir)*.cs" "$(ProjectDir)" /y
-
 del "$(TargetDir)*.xsd"
 del "$(TargetDir)*.cs" 
 </PostBuildEvent>

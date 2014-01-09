@@ -42,9 +42,6 @@
     <Compile Include="..\..\..\Documents\Properties\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="atom.cs">
-      <DependentUpon>atom.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -55,8 +52,6 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
-xcopy "$(TargetDir)*.cs" "$(ProjectDir)" /y
-
 del "$(TargetDir)*.xsd"
 del "$(TargetDir)*.cs" 
 </PostBuildEvent>
