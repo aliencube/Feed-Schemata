@@ -48,6 +48,9 @@
     <None Include="CommentApi.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="AtomThreading.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

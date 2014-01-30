@@ -37,7 +37,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice maxOccurs="unbounded">
+            <xs:choice minOccurs="3" maxOccurs="unbounded">
                 <!-- Required elements -->
                 <xs:element name="id" type="Id">
                     <xs:annotation>
@@ -125,7 +125,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice maxOccurs="unbounded">
+            <xs:choice minOccurs="3" maxOccurs="unbounded">
                 <!-- Required elements -->
                 <xs:element name="id" type="Id">
                     <xs:annotation>
@@ -296,7 +296,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice maxOccurs="unbounded">
+            <xs:choice maxOccurs="3">
                 <!-- Required elements -->
                 <xs:element name="name" type="xs:string">
                     <xs:annotation>

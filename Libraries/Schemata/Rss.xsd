@@ -55,7 +55,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice maxOccurs="unbounded">
+            <xs:choice minOccurs="3" maxOccurs="unbounded">
                 <!-- Required elements -->
                 <xs:element name="title" type="xs:string">
                     <xs:annotation>
@@ -113,7 +113,7 @@
                         <xs:documentation><![CDATA[Example: <pre>Sat, 07 Sep 2002 09:42:31 GMT</pre>]]></xs:documentation>
                     </xs:annotation>
                 </xs:element>
-                <xs:element name="category" type="Category" minOccurs="0">
+                <xs:element name="category" type="Category" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
                         <xs:documentation>Specify one or more categories that the channel belongs to. Follows the same rules as the &lt;item&gt;-level [category](http://www.rssboard.org/rss-specification#ltcategorygtSubelementOfLtitemgt) element. More [info](http://www.rssboard.org/rss-specification#syndic8).</xs:documentation>
                         <xs:documentation><![CDATA[Example: <pre>&lt;category&gt;Newspapers&lt;/category&gt;</pre>]]></xs:documentation>
@@ -125,7 +125,7 @@
                         <xs:documentation><![CDATA[Example: <pre>MightyInHouse Content System v2.3</pre>]]></xs:documentation>
                     </xs:annotation>
                 </xs:element>
-                <xs:element name="docs" type="xs:anyURI" minOccurs="0">
+                <xs:element name="docs" type="xs:anyURI" minOccurs="0" fixed="http://www.rssboard.org/rss-specification">
                     <xs:annotation>
                         <xs:documentation>A URL that points to the [documentation](http://www.rssboard.org/rss-specification) for the format used in the RSS file. It's probably a pointer to this page. It's for people who might stumble across an RSS file on a Web server 25 years from now and wonder what it is.</xs:documentation>
                         <xs:documentation><![CDATA[Example: <pre>http://www.rssboard.org/rss-specification</pre>]]></xs:documentation>
@@ -193,7 +193,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice maxOccurs="unbounded">
+            <xs:choice minOccurs="3" maxOccurs="6">
                 <!-- Required elements -->
                 <xs:element name="url" type="xs:anyURI">
                     <xs:annotation>
@@ -285,7 +285,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice maxOccurs="unbounded">
+            <xs:choice minOccurs="4" maxOccurs="4">
                 <!-- Required elements -->
                 <xs:element name="title" type="xs:string">
                     <xs:annotation>
@@ -317,7 +317,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:element name="hour" type="SkipHour" minOccurs="0" maxOccurs="24" />
+            <xs:element name="hour" type="SkipHour" maxOccurs="24" />
         </xs:sequence>
     </xs:complexType>
 
@@ -338,7 +338,7 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:element name="day" type="SkipDay" minOccurs="0" maxOccurs="7" />
+            <xs:element name="day" type="SkipDay" maxOccurs="7" />
         </xs:sequence>
     </xs:complexType>
 
@@ -364,21 +364,21 @@
         </xs:annotation>
 
         <xs:sequence>
-            <xs:choice maxOccurs="unbounded">
+            <xs:choice minOccurs="3" maxOccurs="unbounded">
                 <!-- Required elements -->
-                <xs:element name="title" type="xs:string" minOccurs="0">
+                <xs:element name="title" type="xs:string">
                     <xs:annotation>
                         <xs:documentation>The title of the item.</xs:documentation>
                         <xs:documentation><![CDATA[Example: <pre>Venice Film Festival Tries to Quit Sinking</pre>]]></xs:documentation>
                     </xs:annotation>
                 </xs:element>
-                <xs:element name="link" type="xs:anyURI" minOccurs="0">
+                <xs:element name="link" type="xs:anyURI">
                     <xs:annotation>
                         <xs:documentation>The URL of the item.</xs:documentation>
                         <xs:documentation><![CDATA[Example: <pre>http://nytimes.com/2004/12/07FEST.html</pre>]]></xs:documentation>
                     </xs:annotation>
                 </xs:element>
-                <xs:element name="description" type="xs:string" minOccurs="0">
+                <xs:element name="description" type="xs:string">
                     <xs:annotation>
                         <xs:documentation>The item synopsis.</xs:documentation>
                         <xs:documentation><![CDATA[Example: <pre>&lt;description&gt;Some of the most heated chatter at the Venice Film Festival this week was about the way that the arrival of the stars at the Palazzo del Cinema was being staged.&lt;/description&gt;</pre>]]></xs:documentation>
@@ -391,7 +391,7 @@
                         <xs:documentation>Email address of the author of the item. [More](http://www.rssboard.org/rss-specification#ltauthorgtSubelementOfLtitemgt).</xs:documentation>
                     </xs:annotation>
                 </xs:element>
-                <xs:element name="category" type="Category" minOccurs="0">
+                <xs:element name="category" type="Category" minOccurs="0" maxOccurs="unbounded">
                     <xs:annotation>
                         <xs:documentation>Includes the item in one or more categories. [More](http://www.rssboard.org/rss-specification#ltcategorygtSubelementOfLtitemgt).</xs:documentation>
                     </xs:annotation>

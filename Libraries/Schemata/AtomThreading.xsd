@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="atomthreading"
+    targetNamespace="http://purl.org/syndication/thread/1.0"
+    xmlns="http://purl.org/syndication/thread/1.0"
+    xmlns:mstns="http://purl.org/syndication/thread/1.0"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+    <!--
+        Due to the issue stated [here](http://www.w3.org/blog/systeam/2008/02/08/w3c_s_excessive_dtd_traffic/), the schema
+        is locally copied, http://feed-schemata.aliencube.org/2009/01/xml.xsd, and used, instead of using the original
+        location, http://www.w3.org/2009/01/xml.xsd. However, for now, it will use the latest reference URL.
+        Reference: http://stackoverflow.com/questions/6117627/the-http-www-w3-org-xml-1998-namespacelang-attribute-is-not-declared
+    -->
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd" />
+
+    <xs:annotation>
+        <xs:documentation>XML Schema for ATOM Threading Extension</xs:documentation>
+        <xs:documentation>This allows feeds publishers to express threaded discussions within the Atom Syndication Format.</xs:documentation>
+        <xs:documentation>URL: http://feed-schemata.aliencube.org</xs:documentation>
+        <xs:documentation>Author: Aliencube Community</xs:documentation>
+        <xs:documentation>Issues: Any issue related this can be raised here (https://github.com/aliencube/Feed-Schemata/issues).</xs:documentation>
+        <xs:documentation>License: This is released under MIT License (http://opensource.org/licenses/MIT).</xs:documentation>
+    </xs:annotation>
+
+    <xs:element name="thr" type="Threading">
+        <xs:annotation>
+            <xs:documentation>Provides ATOM threading extension format</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:thr="http://purl.org/syndication/thread/1.0"</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:complexType name="Threading">
+        <xs:annotation>
+            <xs:documentation>Provides ATOM threading extension format</xs:documentation>
+            <xs:documentation>Namespace declaration: xmlns:thr="http://purl.org/syndication/thread/1.0"</xs:documentation>
+        </xs:annotation>
+
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <!-- Optional -->
+                <xs:element name="in-reply-to" type="inReplyTo" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>This is used to indicate that an entry is a response to another resource.</xs:documentation>
+                        <xs:documentation>The may be used multiple times</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="total" type="xs:nonNegativeInteger" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>This is preserved for backward compatibility ONLY. DO NOT USE</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="inReplyTo">
+        <xs:annotation>
+            <xs:documentation>This is used to indicate that an entry is a response to another resource.</xs:documentation>
+            <xs:documentation>The may be used multiple times</xs:documentation>
+        </xs:annotation>
+
+        <!-- Required -->
+        <xs:attribute name="ref" type="xs:anyURI" use="required">
+            <xs:annotation>
+                <xs:documentation>This specifies the persistent, universally unique identifier of the resource being responded to.</xs:documentation>
+                <xs:documentation>The value MUST conform to the same construction and comparison rules as the value of the atom:id element</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <!-- Optional -->
+        <xs:attribute name="source" type="xs:anyURI" use="optional">
+            <xs:annotation>
+                <xs:documentation>This is used to specify an Atom Feed or Entry Document containing an atom:entry with an atom:id value equal to the value of the "ref" attribute.</xs:documentation>
+                <xs:documentation>This typically points to the feed URL.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="href" type="xs:anyURI" use="optional">
+            <xs:annotation>
+                <xs:documentation>This specifies an IRI that may be used to retrieve a representation of the resource being responded to.</xs:documentation>
+                <xs:documentation>This typically points to the feed entry URL.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="type" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>This provides a hint to the client about the media type of the resource identified by the "href" attribute.</xs:documentation>
+                <xs:documentation>This is only meaningful if a corresponding "href" attribute is also provided.</xs:documentation>
+                <xs:documentation>This typically means MIME type.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:attributeGroup ref="CommonAttributes"/>
+    </xs:complexType>
+
+    <xs:attributeGroup name="CommonAttributes">
+        <xs:annotation>
+            <xs:documentation></xs:documentation>
+        </xs:annotation>
+
+        <xs:attribute ref="xml:lang">
+            <xs:annotation>
+                <xs:documentation>may be used to identify the language of any human readable text.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute ref="xml:base">
+            <xs:annotation>
+                <xs:documentation>may be used to control how relative URIs are resolved.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+
+        <xs:anyAttribute namespace="##other">
+            <xs:annotation>
+                <xs:documentation>Extensibility attribute to define additional namespaces.</xs:documentation>
+            </xs:annotation>
+        </xs:anyAttribute>
+    </xs:attributeGroup>
+</xs:schema>
